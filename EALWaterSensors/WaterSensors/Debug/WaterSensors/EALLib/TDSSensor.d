@@ -1,4 +1,5 @@
-Sketch.d Sketch.o: .././Sketch.cpp \
+WaterSensors/EALLib/TDSSensor.d WaterSensors/EALLib/TDSSensor.o: \
+ ../../../../EALLib/TDSSensor.cpp ../../../../EALLib/TDSSensor.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
@@ -34,9 +35,13 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
- C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src/Wire.h \
- ..\\..\ArduinoCore\include\core/Stream.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h \
+ ..\\..\ArduinoCore\include\core/Print.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions \
@@ -57,19 +62,10 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/functional \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
- ../../../../EALLib/_globalsWaterSensors.h ../../../../EALLib/LCDBase.h \
- C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h \
- ..\\..\ArduinoCore\include\core/Print.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
- ../../../../EALLib/PhSensor.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h \
- ../../../../EALLib/TDSSensor.h ../../../../EALLib/WaterSensorWire.h \
- ../../../../EALLib/_globalsWaterSensors.h ../../../../EALLib/PHSensor.h
+ ../../../../EALLib/LCDBase.h
+
+../../../../EALLib/TDSSensor.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -141,11 +137,19 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h:
+C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h:
 
-C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src/Wire.h:
+..\\..\ArduinoCore\include\core/Print.h:
 
-..\\..\ArduinoCore\include\core/Stream.h:
+C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h:
 
@@ -187,34 +191,6 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
-
-../../../../EALLib/_globalsWaterSensors.h:
-
-../../../../EALLib/LCDBase.h:
-
-C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h:
-
-..\\..\ArduinoCore\include\core/Print.h:
-
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
 
-../../../../EALLib/PhSensor.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h:
-
-../../../../EALLib/TDSSensor.h:
-
-../../../../EALLib/WaterSensorWire.h:
-
-../../../../EALLib/_globalsWaterSensors.h:
-
-../../../../EALLib/PHSensor.h:
+../../../../EALLib/LCDBase.h:

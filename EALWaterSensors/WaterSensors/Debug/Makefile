@@ -59,6 +59,9 @@ C_SRCS +=  \
 ../../../../../Users/lenovo/Documents/Arduino/libraries/SimpleTimer/SimpleTimer.cpp \
 ../../../../EALLib/LCDBase.cpp \
 ../../../../EALLib/PHSensor.cpp \
+../../../../EALLib/TDSSensor.cpp \
+../../../../EALLib/WaterSensorWire.cpp \
+../../../../EALLib/_globalsWaterSensors.cpp \
 ../Sketch.cpp
 
 
@@ -80,6 +83,9 @@ ArduinoLibs/RF24/RF24.o \
 ArduinoLibs/SimpleTimer/SimpleTimer.o \
 EALLib/LCDBase.o \
 EALLib/PHSensor.o \
+EALLib/TDSSensor.o \
+EALLib/WaterSensorWire.o \
+EALLib/_globalsWaterSensors.o \
 Sketch.o
 
 OBJS_AS_ARGS +=  \
@@ -94,6 +100,9 @@ ArduinoLibs/RF24/RF24.o \
 ArduinoLibs/SimpleTimer/SimpleTimer.o \
 EALLib/LCDBase.o \
 EALLib/PHSensor.o \
+EALLib/TDSSensor.o \
+EALLib/WaterSensorWire.o \
+EALLib/_globalsWaterSensors.o \
 Sketch.o
 
 C_DEPS +=  \
@@ -108,6 +117,9 @@ ArduinoLibs/RF24/RF24.d \
 ArduinoLibs/SimpleTimer/SimpleTimer.d \
 EALLib/LCDBase.d \
 EALLib/PHSensor.d \
+EALLib/TDSSensor.d \
+EALLib/WaterSensorWire.d \
+EALLib/_globalsWaterSensors.d \
 Sketch.d
 
 C_DEPS_AS_ARGS +=  \
@@ -122,6 +134,9 @@ ArduinoLibs/RF24/RF24.d \
 ArduinoLibs/SimpleTimer/SimpleTimer.d \
 EALLib/LCDBase.d \
 EALLib/PHSensor.d \
+EALLib/TDSSensor.d \
+EALLib/WaterSensorWire.d \
+EALLib/_globalsWaterSensors.d \
 Sketch.d
 
 OUTPUT_FILE_PATH +=WaterSensors.elf
@@ -173,6 +188,12 @@ ArduinoLibs/LiquidCrystal/LiquidCrystal.o: ../../../../../Program\ Files\ (x86)/
 	$(QUOTE)C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe$(QUOTE) -mcall-prologues -funsigned-char -funsigned-bitfields -D__cplusplus=201103L -DF_CPU=16000000L -DARDUINO=10609 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -DUSB_VID=0x2341 -DUSB_PID=0x0043 -DUSB_MANUFACTURER="\"Arduino LLC\"" -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\include" -I"..\\..\ArduinoCore\include\core" -I"..\\..\ArduinoCore\include\variants\standard" -I"C:\Users\lenovo\Documents\Arduino\libraries" -I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" -I"C:\Program Files (x86)\Arduino\libraries" -I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM\src" -I"C:\Users\lenovo\Documents\Arduino\libraries\MemoryFree" -I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\src" -I"C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer" -I"C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus" -I"C:\Program Files (x86)\Arduino\libraries\LiquidCrystal\src" -I"../EALLib" -I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src" -I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src" -I"C:\Users\lenovo\Documents\Arduino\libraries\RF24" -I"../../../../EALLib" -I"C:\Users\lenovo\Documents\Arduino\libraries\CmdMessenger" -I"C:\Users\lenovo\Documents\Arduino\libraries\erom"  -O0 -fno-threadsafe-statics -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g3 -Wall -w -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.106\gcc\dev\atmega328p" -c -std=gnu++1y -v -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
 	@echo Finished building: $<
 	
+
+
+
+
+
+
 
 
 

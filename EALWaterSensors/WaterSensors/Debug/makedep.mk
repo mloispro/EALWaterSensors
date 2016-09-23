@@ -24,5 +24,11 @@
 
 ..\..\..\EALLib\PHSensor.cpp
 
+..\..\..\EALLib\TDSSensor.cpp
+
+..\..\..\EALLib\WaterSensorWire.cpp
+
+..\..\..\EALLib\_globalsWaterSensors.cpp
+
 Sketch.cpp
 

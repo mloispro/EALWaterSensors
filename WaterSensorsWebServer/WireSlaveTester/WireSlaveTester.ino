@@ -72,13 +72,13 @@ void loop() { // run over and over
   delay(1000);
   
 }
-void receiveEvent(int numBytes)
+void receiveEvent(int bytes)
 {
   //!!DONT PUT SERIAL.PRINTS IN HERE IT WILL SCREW UP WIRE COMM!!
   _wireRequest="";
   _cmd="";
   _cmdData="";
-  if(numBytes == _wireReqLength)
+  if(bytes == _wireReqLength)
   {
     while (0 < Wire.available()) {
       char c = Wire.read();
@@ -103,7 +103,7 @@ void receiveEvent(int numBytes)
   else
   {
     Serial.print(F("Unexpected number of bytes received: "));
-    Serial.println(numBytes);
+    Serial.println(bytes);
   }
 }
 void requestEvent() {
@@ -125,7 +125,6 @@ void requestEvent() {
     _responseIndex=-1;
     return;
   }
-  
   
 //Pad
   int diff = _wireRespLength - partialResponse.length();
