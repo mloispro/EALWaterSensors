@@ -20,7 +20,15 @@
 
 ..\..\..\..\Users\lenovo\Documents\Arduino\libraries\SimpleTimer\SimpleTimer.cpp
 
+..\..\..\EALLib\LCDBase.cpp
+
 ..\..\..\EALLib\PHSensor.cpp
+
+..\..\..\EALLib\TDSSensor.cpp
+
+..\..\..\EALLib\WaterSensorWire.cpp
+
+..\..\..\EALLib\_globalsWaterSensors.cpp
 
 Sketch.cpp
 

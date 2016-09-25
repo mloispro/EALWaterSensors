@@ -1,5 +1,5 @@
-EALLib/PHSensor.d EALLib/PHSensor.o: ../../../../EALLib/PHSensor.cpp \
- ../../../../EALLib/PHSensor.h ..\\..\ArduinoCore\include\core/Arduino.h \
+EALLib/TDSSensor.d EALLib/TDSSensor.o: ../../../../EALLib/TDSSensor.cpp \
+ ../../../../EALLib/TDSSensor.h ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
@@ -64,7 +64,7 @@ EALLib/PHSensor.d EALLib/PHSensor.o: ../../../../EALLib/PHSensor.cpp \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
  ../../../../EALLib/LCDBase.h
 
-../../../../EALLib/PHSensor.h:
+../../../../EALLib/TDSSensor.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 

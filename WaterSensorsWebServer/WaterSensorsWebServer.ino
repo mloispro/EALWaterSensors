@@ -274,7 +274,7 @@ String Request(){
       
       wireResponse.concat(p);
   }
-  //PrintDebug("wireResponse: " +wireResponse);
+  PrintDebug("wireResponse: " +wireResponse);
   wireResponse.trim();
   return wireResponse;
 }

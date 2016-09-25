@@ -6,7 +6,7 @@ const char *hostName = "WaterSensor-1";
 int _sdaPin = 4;
 int _sclPin = 5;
 
-const byte _slave = 18;
+const byte _slave = 8;
 uint8_t _wireReqLength = 20;
 uint8_t _wireRespLength = 10;
 
