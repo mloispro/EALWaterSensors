@@ -36,11 +36,6 @@ EALLib/TDSSensor.d EALLib/TDSSensor.o: ../../../../EALLib/TDSSensor.cpp \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h \
  ..\\..\ArduinoCore\include\core/Print.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions \
@@ -62,6 +57,12 @@ EALLib/TDSSensor.d EALLib/TDSSensor.o: ../../../../EALLib/TDSSensor.cpp \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
+ ../../../../EALLib/SensorsMem.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
+ ../../../../EALLib/MathExt.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
  ../../../../EALLib/LCDBase.h
 
 ../../../../EALLib/TDSSensor.h:
@@ -140,16 +141,6 @@ C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h:
 
 ..\\..\ArduinoCore\include\core/Print.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h:
-
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector:
@@ -191,5 +182,17 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits:
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
+
+../../../../EALLib/SensorsMem.h:
+
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+
+../../../../EALLib/MathExt.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
 
 ../../../../EALLib/LCDBase.h:

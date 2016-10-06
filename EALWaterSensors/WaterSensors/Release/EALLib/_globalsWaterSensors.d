@@ -36,6 +36,8 @@ EALLib/_globalsWaterSensors.d EALLib/_globalsWaterSensors.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions \
@@ -61,11 +63,9 @@ EALLib/_globalsWaterSensors.d EALLib/_globalsWaterSensors.o: \
  ..\\..\ArduinoCore\include\core/Print.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
  ../../../../EALLib/PhSensor.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h \
- C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
+ ../../../../EALLib/SensorsMem.h ../../../../EALLib/MathExt.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
  ../../../../EALLib/TDSSensor.h
 
 ../../../../EALLib/_globalsWaterSensors.h:
@@ -140,6 +140,10 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector:
@@ -190,14 +194,12 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
 
 ../../../../EALLib/PhSensor.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom.h:
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
 
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Access.h:
+../../../../EALLib/SensorsMem.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Entry.h:
+../../../../EALLib/MathExt.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_Storage.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\erom/erom_VerifiedStorage.h:
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
 
 ../../../../EALLib/TDSSensor.h:

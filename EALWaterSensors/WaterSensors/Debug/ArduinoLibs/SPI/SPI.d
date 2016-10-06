@@ -1,6 +1,6 @@
 ArduinoLibs/SPI/SPI.d ArduinoLibs/SPI/SPI.o: \
- ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.cpp \
- ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.h \
+ ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SPI/SPI.cpp \
+ ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SPI/SPI.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
@@ -37,7 +37,7 @@ ArduinoLibs/SPI/SPI.d ArduinoLibs/SPI/SPI.o: \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h
 
-../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src/SPI.h:
+../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SPI/SPI.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 

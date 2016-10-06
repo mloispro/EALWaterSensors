@@ -1,5 +1,5 @@
 ArduinoLibs/Wire/utility/twi.d ArduinoLibs/Wire/utility/twi.o: \
- ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/Wire/src/utility/twi.c \
+ ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/Wire/utility/twi.c \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
@@ -23,7 +23,7 @@ ArduinoLibs/Wire/utility/twi.d ArduinoLibs/Wire/utility/twi.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\pgmspace.h \
  ..\\..\ArduinoCore\include\core/binary.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
- ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/Wire/src/utility/twi.h
+ ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/Wire/utility/twi.h
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h:
 
@@ -71,4 +71,4 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
-../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/Wire/src/utility/twi.h:
+../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/Wire/utility/twi.h:

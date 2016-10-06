@@ -1,6 +1,6 @@
 ArduinoLibs/SoftwareSerial/SoftwareSerial.d \
  ArduinoLibs/SoftwareSerial/SoftwareSerial.o: \
- ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp \
+ ../../../../../Program\ Files\ (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/SoftwareSerial.cpp \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
@@ -36,7 +36,7 @@ ArduinoLibs/SoftwareSerial/SoftwareSerial.d \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src/SoftwareSerial.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial/SoftwareSerial.h \
  ..\\..\ArduinoCore\include\core/Stream.h
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
@@ -109,6 +109,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
-C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial\src/SoftwareSerial.h:
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SoftwareSerial/SoftwareSerial.h:
 
 ..\\..\ArduinoCore\include\core/Stream.h:

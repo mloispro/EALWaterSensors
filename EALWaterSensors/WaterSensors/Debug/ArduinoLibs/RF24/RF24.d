@@ -37,7 +37,7 @@ ArduinoLibs/RF24/RF24.d ArduinoLibs/RF24/RF24.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src/SPI.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI/SPI.h \
  ../../../../../Users/lenovo/Documents/Arduino/libraries/RF24/RF24.h
 
 ../../../../../Users/lenovo/Documents/Arduino/libraries/RF24/nRF24L01.h:
@@ -114,6 +114,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
-C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI\src/SPI.h:
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\SPI/SPI.h:
 
 ../../../../../Users/lenovo/Documents/Arduino/libraries/RF24/RF24.h:
