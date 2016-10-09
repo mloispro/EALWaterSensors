@@ -95,6 +95,9 @@ String GetSensorVals(){
   String tdsAvg="";
   String phOffset="";
   String tdsOffset="";
+  String reading="";
+  String readingDur="";
+  String readingInter="";
 
   Transmit("/GetSensorVals");
    
@@ -104,6 +107,9 @@ String GetSensorVals(){
   tdsAvg = Request();
   phOffset = Request();
   tdsOffset = Request();
+  reading = Request();
+  readingDur = Request();
+  readingInter = Request();
   
   delay(20); //let wire clear.
 //
@@ -115,6 +121,9 @@ String GetSensorVals(){
   response += "\"tdsAvg\":\"" + String(tdsAvg)+ "\"\r\n";
   response += "\"phOffset\":\"" + String(phOffset)+ "\"\r\n";
   response += "\"tdsOffset\":\"" + String(tdsOffset)+ "\"\r\n";
+  response += "\"reading\":\"" + String(reading)+ "\"\r\n";
+  response += "\"readingDur\":\"" + String(readingDur)+ "\"\r\n";
+  response += "\"readingInter\":\"" + String(readingInter)+ "\"\r\n";
   
   return response;
   
@@ -307,7 +316,7 @@ void Transmit(String request) {
 String Request(){
   String wireResponse;
   Wire.requestFrom(_slave,_wireRespLength); //32 bytes is max, so call multiple
-  delay(10);
+  delay(20); //may need to lower this to 10 if having timeouts
   while (Wire.available() > 0) {
       char p = (char)Wire.read();
       //delay(10);

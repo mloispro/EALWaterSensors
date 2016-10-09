@@ -1,5 +1,6 @@
 ﻿#include <Arduino.h>
 #include <SimpleTimer.h>
+#include <avr/wdt.h> //watch dog timer
 //#include <EasyTransfer.h>
 //#include <Wire.h>
 
@@ -25,6 +26,8 @@ void setup(void) {
     Serial.begin(57600);
     while(!Serial);
 
+    wdt_enable(WDTO_8S);
+
     WaterSensorWire::Setup();
     ThePHSensor.TurnOn();
 
@@ -47,6 +50,8 @@ void loop(void) {
 
 void AsyncDoWork() {
 
+    wdt_reset();
+
     static unsigned long lastSensorReadTime = millis();
 
     if(TheLCD.DetectKeyPress() == LcdKeyPress::Select) {
@@ -54,8 +59,9 @@ void AsyncDoWork() {
         SwitchSensors();
         lastSensorReadTime = millis();
     }
-
-    if(millis() - lastSensorReadTime > SensorReadInterval) {
+    SensorReadDuration = millis() - lastSensorReadTime;
+    WaterSensorWire::Loop();
+    if(SensorReadDuration > SensorReadInterval) {
 
         SwitchSensors();
         lastSensorReadTime = millis();

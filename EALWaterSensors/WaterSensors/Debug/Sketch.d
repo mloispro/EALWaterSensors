@@ -35,6 +35,7 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
  C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions \
@@ -143,6 +144,8 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h:
 
