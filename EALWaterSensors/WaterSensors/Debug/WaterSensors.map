@@ -1989,24 +1989,55 @@ Discarded input sections
  .text          0x00000000        0x0 EALLib/MathExt.o
  .data          0x00000000        0x0 EALLib/MathExt.o
  .bss           0x00000000        0x0 EALLib/MathExt.o
+ .text._ZnwjPv  0x00000000       0x20 EALLib/MathExt.o
  .text._ZN7MathExt11RandomFloatEff
                 0x00000000       0xb4 EALLib/MathExt.o
+ .text._ZN7MathExt10GetAverageESt6vectorIdSaIdEE
+                0x00000000       0x84 EALLib/MathExt.o
  .text._ZN7MathExt15GetStdDeviationESt6vectorIdSaIdEEd
                 0x00000000      0x14e EALLib/MathExt.o
+ .text._ZNSt6vectorIdSaIdEE5beginEv
+                0x00000000       0x22 EALLib/MathExt.o
+ .text._ZNSt6vectorIdSaIdEE3endEv
+                0x00000000       0x38 EALLib/MathExt.o
+ .text._ZSt10accumulateIPddET0_T_S2_S1_
+                0x00000000       0x74 EALLib/MathExt.o
+ .text._ZNKSt6vectorIdSaIdEE4sizeEv
+                0x00000000       0x22 EALLib/MathExt.o
+ .text._ZNSaIdEC2Ev
+                0x00000000       0x18 EALLib/MathExt.o
+ .text._ZNSaIdED2Ev
+                0x00000000       0x18 EALLib/MathExt.o
  .text._ZNSt6vectorIdSaIdEEC2EjRKdRKS0_
                 0x00000000       0x8e EALLib/MathExt.o
+ .text._ZNSt6vectorIdSaIdEED2Ev
+                0x00000000       0x8c EALLib/MathExt.o
  .text._ZSt7bind2ndISt5minusIdEdESt9binder2ndIT_ERKS3_RKT0_
                 0x00000000       0x96 EALLib/MathExt.o
  .text._ZSt9transformIPdS0_St9binder2ndISt5minusIdEEET0_T_S6_S5_T1_
                 0x00000000       0x72 EALLib/MathExt.o
  .text._ZSt13inner_productIPdS0_dET1_T_S2_T0_S1_
                 0x00000000       0x9c EALLib/MathExt.o
+ .text._ZNSaIdE8allocateEjPKv
+                0x00000000       0x30 EALLib/MathExt.o
+ .text._ZNSt6vectorIdSaIdEE6resizeEjRKd
+                0x00000000       0xce EALLib/MathExt.o
+ .text._ZNSaIdE7destroyEPd
+                0x00000000       0x1c EALLib/MathExt.o
+ .text._ZNSaIdE10deallocateEPdj
+                0x00000000       0x28 EALLib/MathExt.o
  .text._ZNSt14unary_functionIddEC2Ev
                 0x00000000       0x18 EALLib/MathExt.o
  .text._ZNSt9binder2ndISt5minusIdEEC2ERKS1_RKd
                 0x00000000       0x44 EALLib/MathExt.o
  .text._ZNKSt9binder2ndISt5minusIdEEclERKd
                 0x00000000       0x3c EALLib/MathExt.o
+ .text._ZNSt6vectorIdSaIdEE7reserveEj
+                0x00000000      0x116 EALLib/MathExt.o
+ .text._ZNSaIdE9constructEPdRKd
+                0x00000000       0x4e EALLib/MathExt.o
+ .text._ZNSt6vectorIdSaIdEE8downsizeEj
+                0x00000000       0x8c EALLib/MathExt.o
  .text._ZNKSt5minusIdEclERKdS2_
                 0x00000000       0x4c EALLib/MathExt.o
  .rodata._ZL2SS
@@ -2135,54 +2166,15 @@ Discarded input sections
  .group         0x00000000        0x8 EALLib/PHSensor.o
  .group         0x00000000        0x8 EALLib/PHSensor.o
  .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
- .group         0x00000000        0x8 EALLib/PHSensor.o
  .text          0x00000000        0x0 EALLib/PHSensor.o
  .data          0x00000000        0x0 EALLib/PHSensor.o
  .bss           0x00000000        0x0 EALLib/PHSensor.o
- .text._ZnwjPv  0x00000000       0x20 EALLib/PHSensor.o
  .text._ZN8PHSensor10GetVoltageEv
                 0x00000000       0x2e EALLib/PHSensor.o
  .bss._ZGVZN8PHSensor15PrintPHToSerialEvE9printTime
                 0x00000000        0x8 EALLib/PHSensor.o
  .text._ZN8PHSensor15PrintPHToSerialEv
                 0x00000000      0x126 EALLib/PHSensor.o
- .text._ZNSaIdEC2Ev
-                0x00000000       0x18 EALLib/PHSensor.o
- .text._ZNSaIdED2Ev
-                0x00000000       0x18 EALLib/PHSensor.o
- .text._ZNSt6vectorIdSaIdEED2Ev
-                0x00000000       0x8c EALLib/PHSensor.o
- .text._ZNKSt6vectorIdSaIdEE4sizeEv
-                0x00000000       0x22 EALLib/PHSensor.o
- .text._ZNSaIdE8allocateEjPKv
-                0x00000000       0x30 EALLib/PHSensor.o
- .text._ZNSaIdE7destroyEPd
-                0x00000000       0x1c EALLib/PHSensor.o
- .text._ZNSaIdE10deallocateEPdj
-                0x00000000       0x28 EALLib/PHSensor.o
- .text._ZNSt6vectorIdSaIdEE6resizeEjRKd
-                0x00000000       0xce EALLib/PHSensor.o
- .text._ZNSaIdE9constructEPdRKd
-                0x00000000       0x4e EALLib/PHSensor.o
- .text._ZNSt6vectorIdSaIdEE7reserveEj
-                0x00000000      0x116 EALLib/PHSensor.o
- .text._ZNSt6vectorIdSaIdEE8downsizeEj
-                0x00000000       0x8c EALLib/PHSensor.o
  .rodata._ZTV7LCDBase
                 0x00000000        0x8 EALLib/PHSensor.o
  .rodata._ZL2SS
@@ -2578,7 +2570,6 @@ Discarded input sections
  .group         0x00000000        0x8 EALLib/WaterSensorWire.o
  .group         0x00000000        0x8 EALLib/WaterSensorWire.o
  .group         0x00000000        0x8 EALLib/WaterSensorWire.o
- .group         0x00000000        0x8 EALLib/WaterSensorWire.o
  .text          0x00000000        0x0 EALLib/WaterSensorWire.o
  .data          0x00000000        0x0 EALLib/WaterSensorWire.o
  .bss           0x00000000        0x0 EALLib/WaterSensorWire.o
@@ -2722,10 +2713,6 @@ Discarded input sections
  .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
  .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
  .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
- .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
- .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
- .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
- .group         0x00000000        0x8 EALLib/_globalsWaterSensors.o
  .text          0x00000000        0x0 EALLib/_globalsWaterSensors.o
  .data          0x00000000        0x0 EALLib/_globalsWaterSensors.o
  .bss           0x00000000        0x0 EALLib/_globalsWaterSensors.o
@@ -2737,14 +2724,6 @@ Discarded input sections
                 0x00000000       0xee EALLib/_globalsWaterSensors.o
  .text._ZN7LCDBaseC2ERKS_
                 0x00000000       0x66 EALLib/_globalsWaterSensors.o
- .text._ZNSt6vectorIdSaIdEED2Ev
-                0x00000000       0x8c EALLib/_globalsWaterSensors.o
- .text._ZNSaIdED2Ev
-                0x00000000       0x18 EALLib/_globalsWaterSensors.o
- .text._ZNSaIdE7destroyEPd
-                0x00000000       0x1c EALLib/_globalsWaterSensors.o
- .text._ZNSaIdE10deallocateEPdj
-                0x00000000       0x28 EALLib/_globalsWaterSensors.o
  .rodata._ZTV7LCDBase
                 0x00000000        0x8 EALLib/_globalsWaterSensors.o
  .rodata._ZL2SS
@@ -2982,6 +2961,8 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text.avr-libc.fplib
+                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(log10.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(log10.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(log10.o)
@@ -3075,8 +3056,20 @@ Discarded input sections
  .text          0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .data          0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .bss           0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .text._Znwj    0x00000000        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .text._Znaj    0x00000000        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .text._ZdlPv   0x00000000        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .text._ZdaPv   0x00000000        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_info    0x00000000      0x18c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_abbrev  0x00000000       0xd9 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_loc     0x00000000       0x98 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_aranges
+                0x00000000       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_ranges  0x00000000       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_line    0x00000000      0x15b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_str     0x00000000      0x1e7 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .comment       0x00000000       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+ .debug_frame   0x00000000       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .group         0x00000000        0x8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .group         0x00000000        0x8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text          0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
@@ -3104,8 +3097,12 @@ Discarded input sections
                 0x00000000       0x2c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
                 0x00000000       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print10printFloatEdh
+                0x00000000      0x1ca C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEdi
                 0x00000000        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .text._ZN5Print7printlnEdi
+                0x00000000       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text          0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .data          0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .bss           0x00000000        0x0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
@@ -3249,6 +3246,8 @@ Discarded input sections
                 0x00000000       0x1a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZN6StringixEj
                 0x00000000       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .text._ZNK6String8getBytesEPhjj
+                0x00000000       0x5e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7indexOfEcj
                 0x00000000       0x34 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text._ZNK6String7indexOfEc
@@ -3562,6 +3561,8 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncpy.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncpy.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncpy.o)
+ .text.avr-libc
+                0x00000000       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncpy.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrchr.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrchr.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrchr.o)
@@ -3850,7 +3851,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x7640
+.text           0x00000000     0x65b4
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -3874,1006 +3875,916 @@ END GROUP
                 0x0000032f       0x11 EALLib/LCDBase.o
  .progmem.data._ZZN7MathExt16CalculateAverageEPiiE3__c
                 0x00000340       0x2a EALLib/MathExt.o
- .progmem.data._ZZN8PHSensor11CalculatePHEvE3__c
-                0x0000036a        0xf EALLib/PHSensor.o
- .progmem.data._ZZN8PHSensor11CalculatePHEvE3__c_0
-                0x00000379       0x10 EALLib/PHSensor.o
+ .progmem.data._ZZN8PHSensor10getPHValueEvE3__c
+                0x0000036a       0x11 EALLib/PHSensor.o
+ .progmem.data._ZZN9TDSSensor11getTDSValueEvE3__c
+                0x0000037b       0x12 EALLib/TDSSensor.o
  .progmem.data._ZZN15WaterSensorWire5SetupEvE3__c
-                0x00000389        0x9 EALLib/WaterSensorWire.o
+                0x0000038d        0x9 EALLib/WaterSensorWire.o
  .progmem.data._ZZN15WaterSensorWire7ReceiveEiE3__c
-                0x00000392        0x6 EALLib/WaterSensorWire.o
+                0x00000396        0x6 EALLib/WaterSensorWire.o
  .progmem.data._ZZN15WaterSensorWire7ReceiveEiE3__c_0
-                0x00000398        0xa EALLib/WaterSensorWire.o
+                0x0000039c        0xa EALLib/WaterSensorWire.o
  .progmem.data._ZZN15WaterSensorWire7ReceiveEiE3__c_1
-                0x000003a2       0x26 EALLib/WaterSensorWire.o
+                0x000003a6       0x26 EALLib/WaterSensorWire.o
  .progmem.data._ZZN15WaterSensorWire7RequestEvE3__c
-                0x000003c8       0x1b EALLib/WaterSensorWire.o
+                0x000003cc       0x1b EALLib/WaterSensorWire.o
  .progmem.data._ZZ11AsyncDoWorkvE3__c
-                0x000003e3       0x12 Sketch.o
+                0x000003e7       0x12 Sketch.o
  .progmem.data.digital_pin_to_timer_PGM
-                0x000003f5       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000003f5                digital_pin_to_timer_PGM
+                0x000003f9       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000003f9                digital_pin_to_timer_PGM
  .progmem.data.digital_pin_to_bit_mask_PGM
-                0x00000409       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000409                digital_pin_to_bit_mask_PGM
+                0x0000040d       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000040d                digital_pin_to_bit_mask_PGM
  .progmem.data.digital_pin_to_port_PGM
-                0x0000041d       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000041d                digital_pin_to_port_PGM
+                0x00000421       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000421                digital_pin_to_port_PGM
  .progmem.data.port_to_input_PGM
-                0x00000431        0xa C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000431                port_to_input_PGM
+                0x00000435        0xa C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000435                port_to_input_PGM
  .progmem.data.port_to_output_PGM
-                0x0000043b        0xa C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000043b                port_to_output_PGM
+                0x0000043f        0xa C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000043f                port_to_output_PGM
  .progmem.data.port_to_mode_PGM
-                0x00000445        0xa C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000445                port_to_mode_PGM
-                0x00000450                . = ALIGN (0x2)
- *fill*         0x0000044f        0x1 
+                0x00000449        0xa C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000449                port_to_mode_PGM
+                0x00000454                . = ALIGN (0x2)
+ *fill*         0x00000453        0x1 
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000450                __ctors_start = .
+                0x00000454                __ctors_start = .
  *(.ctors)
- .ctors         0x00000450        0x2 ArduinoLibs/Wire/Wire.o
- .ctors         0x00000452        0x2 ArduinoLibs/erom/erom.o
- .ctors         0x00000454        0x2 EALLib/WaterSensorWire.o
- .ctors         0x00000456        0x2 EALLib/_globalsWaterSensors.o
- .ctors         0x00000458        0x2 Sketch.o
- .ctors         0x0000045a        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x0000045c                __ctors_end = .
-                0x0000045c                __dtors_start = .
+ .ctors         0x00000454        0x2 ArduinoLibs/Wire/Wire.o
+ .ctors         0x00000456        0x2 ArduinoLibs/erom/erom.o
+ .ctors         0x00000458        0x2 EALLib/WaterSensorWire.o
+ .ctors         0x0000045a        0x2 EALLib/_globalsWaterSensors.o
+ .ctors         0x0000045c        0x2 Sketch.o
+ .ctors         0x0000045e        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000460                __ctors_end = .
+                0x00000460                __dtors_start = .
  *(.dtors)
- .dtors         0x0000045c        0x2 EALLib/WaterSensorWire.o
- .dtors         0x0000045e        0x2 EALLib/_globalsWaterSensors.o
-                0x00000460                __dtors_end = .
+ .dtors         0x00000460        0x2 EALLib/WaterSensorWire.o
+ .dtors         0x00000462        0x2 EALLib/_globalsWaterSensors.o
+                0x00000464                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000460        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
-                0x00000460                __init
+ .init0         0x00000464        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x00000464                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000460        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .init2         0x00000464        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000046c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
-                0x0000046c                __do_copy_data
- .init4         0x00000482       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
-                0x00000482                __do_clear_bss
+ .init4         0x00000470       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
+                0x00000470                __do_copy_data
+ .init4         0x00000486       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000486                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x00000492       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
-                0x00000492                __do_global_ctors
+ .init6         0x00000496       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
+                0x00000496                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000004a8        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
+ .init9         0x000004ac        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
  *(.init9)
  *(.text)
- .text          0x000004b0        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
-                0x000004b0                __vector_22
-                0x000004b0                __vector_1
-                0x000004b0                __vector_12
-                0x000004b0                __bad_interrupt
-                0x000004b0                __vector_6
-                0x000004b0                __vector_23
-                0x000004b0                __vector_25
-                0x000004b0                __vector_11
-                0x000004b0                __vector_13
-                0x000004b0                __vector_17
-                0x000004b0                __vector_7
-                0x000004b0                __vector_9
-                0x000004b0                __vector_2
-                0x000004b0                __vector_21
-                0x000004b0                __vector_15
-                0x000004b0                __vector_8
-                0x000004b0                __vector_14
-                0x000004b0                __vector_10
-                0x000004b0                __vector_20
-                0x000004b2                . = ALIGN (0x2)
+ .text          0x000004b4        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5/crtatmega328p.o
+                0x000004b4                __vector_22
+                0x000004b4                __vector_1
+                0x000004b4                __vector_12
+                0x000004b4                __bad_interrupt
+                0x000004b4                __vector_6
+                0x000004b4                __vector_23
+                0x000004b4                __vector_25
+                0x000004b4                __vector_11
+                0x000004b4                __vector_13
+                0x000004b4                __vector_17
+                0x000004b4                __vector_7
+                0x000004b4                __vector_9
+                0x000004b4                __vector_2
+                0x000004b4                __vector_21
+                0x000004b4                __vector_15
+                0x000004b4                __vector_8
+                0x000004b4                __vector_14
+                0x000004b4                __vector_10
+                0x000004b4                __vector_20
+                0x000004b6                . = ALIGN (0x2)
  *(.text.*)
  .text.twi_init
-                0x000004b2       0x3c ArduinoLibs/Wire/utility/twi.o
-                0x000004b2                twi_init
+                0x000004b6       0x3c ArduinoLibs/Wire/utility/twi.o
+                0x000004b6                twi_init
  .text.twi_setAddress
-                0x000004ee        0x8 ArduinoLibs/Wire/utility/twi.o
-                0x000004ee                twi_setAddress
+                0x000004f2        0x8 ArduinoLibs/Wire/utility/twi.o
+                0x000004f2                twi_setAddress
  .text.twi_transmit
-                0x000004f6       0x42 ArduinoLibs/Wire/utility/twi.o
-                0x000004f6                twi_transmit
+                0x000004fa       0x42 ArduinoLibs/Wire/utility/twi.o
+                0x000004fa                twi_transmit
  .text.twi_attachSlaveRxEvent
-                0x00000538        0xa ArduinoLibs/Wire/utility/twi.o
-                0x00000538                twi_attachSlaveRxEvent
+                0x0000053c        0xa ArduinoLibs/Wire/utility/twi.o
+                0x0000053c                twi_attachSlaveRxEvent
  .text.twi_attachSlaveTxEvent
-                0x00000542        0xa ArduinoLibs/Wire/utility/twi.o
-                0x00000542                twi_attachSlaveTxEvent
+                0x00000546        0xa ArduinoLibs/Wire/utility/twi.o
+                0x00000546                twi_attachSlaveTxEvent
  .text.twi_stop
-                0x0000054c       0x16 ArduinoLibs/Wire/utility/twi.o
-                0x0000054c                twi_stop
+                0x00000550       0x16 ArduinoLibs/Wire/utility/twi.o
+                0x00000550                twi_stop
  .text.twi_releaseBus
-                0x00000562        0xc ArduinoLibs/Wire/utility/twi.o
-                0x00000562                twi_releaseBus
+                0x00000566        0xc ArduinoLibs/Wire/utility/twi.o
+                0x00000566                twi_releaseBus
  .text.__vector_24
-                0x0000056e      0x234 ArduinoLibs/Wire/utility/twi.o
-                0x0000056e                __vector_24
+                0x00000572      0x234 ArduinoLibs/Wire/utility/twi.o
+                0x00000572                __vector_24
  .text._ZN5Print13setWriteErrorEi
-                0x000007a2       0x2a ArduinoLibs/Wire/Wire.o
-                0x000007a2                _ZN5Print13setWriteErrorEi
+                0x000007a6       0x2a ArduinoLibs/Wire/Wire.o
+                0x000007a6                _ZN5Print13setWriteErrorEi
  .text._ZN5PrintC2Ev
-                0x000007cc       0x30 ArduinoLibs/Wire/Wire.o
-                0x000007cc                _ZN5PrintC2Ev
-                0x000007cc                _ZN5PrintC1Ev
+                0x000007d0       0x30 ArduinoLibs/Wire/Wire.o
+                0x000007d0                _ZN5PrintC2Ev
+                0x000007d0                _ZN5PrintC1Ev
  .text._ZN6StreamC2Ev
-                0x000007fc       0x42 ArduinoLibs/Wire/Wire.o
-                0x000007fc                _ZN6StreamC1Ev
-                0x000007fc                _ZN6StreamC2Ev
+                0x00000800       0x42 ArduinoLibs/Wire/Wire.o
+                0x00000800                _ZN6StreamC1Ev
+                0x00000800                _ZN6StreamC2Ev
  .text._ZN7TwoWireC2Ev
-                0x0000083e       0x2c ArduinoLibs/Wire/Wire.o
-                0x0000083e                _ZN7TwoWireC1Ev
-                0x0000083e                _ZN7TwoWireC2Ev
+                0x00000842       0x2c ArduinoLibs/Wire/Wire.o
+                0x00000842                _ZN7TwoWireC1Ev
+                0x00000842                _ZN7TwoWireC2Ev
  .text._ZN7TwoWire5beginEv
-                0x0000086a       0x2a ArduinoLibs/Wire/Wire.o
-                0x0000086a                _ZN7TwoWire5beginEv
+                0x0000086e       0x2a ArduinoLibs/Wire/Wire.o
+                0x0000086e                _ZN7TwoWire5beginEv
  .text._ZN7TwoWire5beginEh
-                0x00000894       0x30 ArduinoLibs/Wire/Wire.o
-                0x00000894                _ZN7TwoWire5beginEh
+                0x00000898       0x30 ArduinoLibs/Wire/Wire.o
+                0x00000898                _ZN7TwoWire5beginEh
  .text._ZN7TwoWire5writeEh
-                0x000008c4       0x6c ArduinoLibs/Wire/Wire.o
-                0x000008c4                _ZN7TwoWire5writeEh
+                0x000008c8       0x6c ArduinoLibs/Wire/Wire.o
+                0x000008c8                _ZN7TwoWire5writeEh
  .text._ZN7TwoWire5writeEPKhj
-                0x00000930       0x80 ArduinoLibs/Wire/Wire.o
-                0x00000930                _ZN7TwoWire5writeEPKhj
+                0x00000934       0x80 ArduinoLibs/Wire/Wire.o
+                0x00000934                _ZN7TwoWire5writeEPKhj
  .text._ZN7TwoWire9availableEv
-                0x000009b0       0x30 ArduinoLibs/Wire/Wire.o
-                0x000009b0                _ZN7TwoWire9availableEv
+                0x000009b4       0x30 ArduinoLibs/Wire/Wire.o
+                0x000009b4                _ZN7TwoWire9availableEv
  .text._ZN7TwoWire4readEv
-                0x000009e0       0x52 ArduinoLibs/Wire/Wire.o
-                0x000009e0                _ZN7TwoWire4readEv
+                0x000009e4       0x52 ArduinoLibs/Wire/Wire.o
+                0x000009e4                _ZN7TwoWire4readEv
  .text._ZN7TwoWire4peekEv
-                0x00000a32       0x48 ArduinoLibs/Wire/Wire.o
-                0x00000a32                _ZN7TwoWire4peekEv
+                0x00000a36       0x48 ArduinoLibs/Wire/Wire.o
+                0x00000a36                _ZN7TwoWire4peekEv
  .text._ZN7TwoWire5flushEv
-                0x00000a7a       0x18 ArduinoLibs/Wire/Wire.o
-                0x00000a7a                _ZN7TwoWire5flushEv
+                0x00000a7e       0x18 ArduinoLibs/Wire/Wire.o
+                0x00000a7e                _ZN7TwoWire5flushEv
  .text._ZN7TwoWire16onReceiveServiceEPhi
-                0x00000a92       0x8c ArduinoLibs/Wire/Wire.o
-                0x00000a92                _ZN7TwoWire16onReceiveServiceEPhi
+                0x00000a96       0x8c ArduinoLibs/Wire/Wire.o
+                0x00000a96                _ZN7TwoWire16onReceiveServiceEPhi
  .text._ZN7TwoWire16onRequestServiceEv
-                0x00000b1e       0x34 ArduinoLibs/Wire/Wire.o
-                0x00000b1e                _ZN7TwoWire16onRequestServiceEv
+                0x00000b22       0x34 ArduinoLibs/Wire/Wire.o
+                0x00000b22                _ZN7TwoWire16onRequestServiceEv
  .text._ZN7TwoWire9onReceiveEPFviE
-                0x00000b52       0x28 ArduinoLibs/Wire/Wire.o
-                0x00000b52                _ZN7TwoWire9onReceiveEPFviE
+                0x00000b56       0x28 ArduinoLibs/Wire/Wire.o
+                0x00000b56                _ZN7TwoWire9onReceiveEPFviE
  .text._ZN7TwoWire9onRequestEPFvvE
-                0x00000b7a       0x28 ArduinoLibs/Wire/Wire.o
-                0x00000b7a                _ZN7TwoWire9onRequestEPFvvE
+                0x00000b7e       0x28 ArduinoLibs/Wire/Wire.o
+                0x00000b7e                _ZN7TwoWire9onRequestEPFvvE
  .text._Z41__static_initialization_and_destruction_0ii
-                0x00000ba2       0x32 ArduinoLibs/Wire/Wire.o
+                0x00000ba6       0x32 ArduinoLibs/Wire/Wire.o
  .text._GLOBAL__sub_I__ZN7TwoWire8rxBufferE
-                0x00000bd4       0x1c ArduinoLibs/Wire/Wire.o
+                0x00000bd8       0x1c ArduinoLibs/Wire/Wire.o
  .text._Z10DebugPulsehh
-                0x00000bf0       0x18 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x00000bf0                _Z10DebugPulsehh
+                0x00000bf4       0x18 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x00000bf4                _Z10DebugPulsehh
  .text._ZN14SoftwareSerial10tunedDelayEj
-                0x00000c08       0x2c ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x00000c08                _ZN14SoftwareSerial10tunedDelayEj
+                0x00000c0c       0x2c ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x00000c0c                _ZN14SoftwareSerial10tunedDelayEj
  .text._ZN14SoftwareSerial11rx_pin_readEv
-                0x00000c34       0x30 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x00000c34                _ZN14SoftwareSerial11rx_pin_readEv
+                0x00000c38       0x30 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x00000c38                _ZN14SoftwareSerial11rx_pin_readEv
  .text.__vector_3
-                0x00000c64      0x25c ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x00000c64                __vector_5
-                0x00000c64                __vector_4
-                0x00000c64                __vector_3
+                0x00000c68      0x25c ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x00000c68                __vector_5
+                0x00000c68                __vector_4
+                0x00000c68                __vector_3
  .text._ZN13LiquidCrystalC2Ehhhhhh
-                0x00000ec0       0x84 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00000ec0                _ZN13LiquidCrystalC1Ehhhhhh
-                0x00000ec0                _ZN13LiquidCrystalC2Ehhhhhh
+                0x00000ec4       0x84 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00000ec4                _ZN13LiquidCrystalC1Ehhhhhh
+                0x00000ec4                _ZN13LiquidCrystalC2Ehhhhhh
  .text._ZN13LiquidCrystal4initEhhhhhhhhhhhh
-                0x00000f44      0x118 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00000f44                _ZN13LiquidCrystal4initEhhhhhhhhhhhh
+                0x00000f48      0x118 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00000f48                _ZN13LiquidCrystal4initEhhhhhhhhhhhh
  .text._ZN13LiquidCrystal5beginEhhh
-                0x0000105c      0x1a4 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x0000105c                _ZN13LiquidCrystal5beginEhhh
+                0x00001060      0x1a4 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00001060                _ZN13LiquidCrystal5beginEhhh
  .text._ZN13LiquidCrystal13setRowOffsetsEiiii
-                0x00001200       0x50 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001200                _ZN13LiquidCrystal13setRowOffsetsEiiii
+                0x00001204       0x50 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00001204                _ZN13LiquidCrystal13setRowOffsetsEiiii
  .text._ZN13LiquidCrystal5clearEv
-                0x00001250       0x28 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001250                _ZN13LiquidCrystal5clearEv
+                0x00001254       0x28 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00001254                _ZN13LiquidCrystal5clearEv
  .text._ZN13LiquidCrystal9setCursorEhh
-                0x00001278       0x6c ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001278                _ZN13LiquidCrystal9setCursorEhh
+                0x0000127c       0x6c ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x0000127c                _ZN13LiquidCrystal9setCursorEhh
  .text._ZN13LiquidCrystal7displayEv
-                0x000012e4       0x40 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x000012e4                _ZN13LiquidCrystal7displayEv
+                0x000012e8       0x40 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x000012e8                _ZN13LiquidCrystal7displayEv
  .text._ZN13LiquidCrystal7commandEh
-                0x00001324       0x24 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001324                _ZN13LiquidCrystal7commandEh
+                0x00001328       0x24 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00001328                _ZN13LiquidCrystal7commandEh
  .text._ZN13LiquidCrystal5writeEh
-                0x00001348       0x28 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001348                _ZN13LiquidCrystal5writeEh
+                0x0000134c       0x28 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x0000134c                _ZN13LiquidCrystal5writeEh
  .text._ZN13LiquidCrystal4sendEhh
-                0x00001370       0x8a ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001370                _ZN13LiquidCrystal4sendEhh
+                0x00001374       0x8a ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00001374                _ZN13LiquidCrystal4sendEhh
  .text._ZN13LiquidCrystal11pulseEnableEv
-                0x000013fa       0x5a ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x000013fa                _ZN13LiquidCrystal11pulseEnableEv
+                0x000013fe       0x5a ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x000013fe                _ZN13LiquidCrystal11pulseEnableEv
  .text._ZN13LiquidCrystal10write4bitsEh
-                0x00001454       0x7e ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00001454                _ZN13LiquidCrystal10write4bitsEh
+                0x00001458       0x7e ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00001458                _ZN13LiquidCrystal10write4bitsEh
  .text._ZN13LiquidCrystal10write8bitsEh
-                0x000014d2       0x7e ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x000014d2                _ZN13LiquidCrystal10write8bitsEh
+                0x000014d6       0x7e ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x000014d6                _ZN13LiquidCrystal10write8bitsEh
  .text._ZN4erom6Access8instanceEv
-                0x00001550       0x36 ArduinoLibs/erom/erom.o
-                0x00001550                _ZN4erom6Access8instanceEv
+                0x00001554       0x36 ArduinoLibs/erom/erom.o
+                0x00001554                _ZN4erom6Access8instanceEv
  .text._ZN4erom6AccessC2Ej
-                0x00001586       0x38 ArduinoLibs/erom/erom.o
-                0x00001586                _ZN4erom6AccessC2Ej
-                0x00001586                _ZN4erom6AccessC1Ej
+                0x0000158a       0x38 ArduinoLibs/erom/erom.o
+                0x0000158a                _ZN4erom6AccessC2Ej
+                0x0000158a                _ZN4erom6AccessC1Ej
  .text._ZN4erom6Access18device_memory_sizeEv
-                0x000015be       0x16 ArduinoLibs/erom/erom.o
-                0x000015be                _ZN4erom6Access18device_memory_sizeEv
+                0x000015c2       0x16 ArduinoLibs/erom/erom.o
+                0x000015c2                _ZN4erom6Access18device_memory_sizeEv
  .text._Z41__static_initialization_and_destruction_0ii
-                0x000015d4       0x36 ArduinoLibs/erom/erom.o
+                0x000015d8       0x36 ArduinoLibs/erom/erom.o
  .text._GLOBAL__sub_I__ZN4erom6accessE
-                0x0000160a       0x1c ArduinoLibs/erom/erom.o
+                0x0000160e       0x1c ArduinoLibs/erom/erom.o
  .text._ZL7elapsedv
-                0x00001626       0x1e ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x0000162a       0x1e ArduinoLibs/SimpleTimer/SimpleTimer.o
  .text._ZN11SimpleTimerC2Ev
-                0x00001644       0xcc ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001644                _ZN11SimpleTimerC1Ev
-                0x00001644                _ZN11SimpleTimerC2Ev
+                0x00001648       0xcc ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001648                _ZN11SimpleTimerC1Ev
+                0x00001648                _ZN11SimpleTimerC2Ev
  .text._ZN11SimpleTimer3runEv
-                0x00001710      0x31c ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001710                _ZN11SimpleTimer3runEv
+                0x00001714      0x31c ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001714                _ZN11SimpleTimer3runEv
  .text._ZN11SimpleTimer17findFirstFreeSlotEv
-                0x00001a2c       0x6e ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001a2c                _ZN11SimpleTimer17findFirstFreeSlotEv
+                0x00001a30       0x6e ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001a30                _ZN11SimpleTimer17findFirstFreeSlotEv
  .text._ZN11SimpleTimer8setTimerElPFvvEi
-                0x00001a9a      0x116 ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001a9a                _ZN11SimpleTimer8setTimerElPFvvEi
+                0x00001a9e      0x116 ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001a9e                _ZN11SimpleTimer8setTimerElPFvvEi
  .text._ZN11SimpleTimer11setIntervalElPFvvE
-                0x00001bb0       0x52 ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001bb0                _ZN11SimpleTimer11setIntervalElPFvvE
+                0x00001bb4       0x52 ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001bb4                _ZN11SimpleTimer11setIntervalElPFvvE
  .text._ZN11SimpleTimer10setTimeoutElPFvvE
-                0x00001c02       0x52 ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001c02                _ZN11SimpleTimer10setTimeoutElPFvvE
+                0x00001c06       0x52 ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001c06                _ZN11SimpleTimer10setTimeoutElPFvvE
  .text._ZN11SimpleTimer11deleteTimerEi
-                0x00001c54       0xf8 ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001c54                _ZN11SimpleTimer11deleteTimerEi
+                0x00001c58       0xf8 ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001c58                _ZN11SimpleTimer11deleteTimerEi
  .text._ZN11SimpleTimer12restartTimerEi
-                0x00001d4c       0x4e ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001d4c                _ZN11SimpleTimer12restartTimerEi
+                0x00001d50       0x4e ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001d50                _ZN11SimpleTimer12restartTimerEi
  .text._ZN11SimpleTimer9isEnabledEi
-                0x00001d9a       0x3c ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001d9a                _ZN11SimpleTimer9isEnabledEi
+                0x00001d9e       0x3c ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001d9e                _ZN11SimpleTimer9isEnabledEi
  .text._ZN11SimpleTimer6enableEi
-                0x00001dd6       0x3c ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001dd6                _ZN11SimpleTimer6enableEi
+                0x00001dda       0x3c ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001dda                _ZN11SimpleTimer6enableEi
  .text._ZN11SimpleTimer7disableEi
-                0x00001e12       0x3a ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00001e12                _ZN11SimpleTimer7disableEi
+                0x00001e16       0x3a ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00001e16                _ZN11SimpleTimer7disableEi
  .text._ZN7LCDBaseC2Ev
-                0x00001e4c       0x7a EALLib/LCDBase.o
-                0x00001e4c                _ZN7LCDBaseC1Ev
-                0x00001e4c                _ZN7LCDBaseC2Ev
+                0x00001e50       0x7a EALLib/LCDBase.o
+                0x00001e50                _ZN7LCDBaseC1Ev
+                0x00001e50                _ZN7LCDBaseC2Ev
  .text._ZN7LCDBase4InitEv
-                0x00001ec6       0x34 EALLib/LCDBase.o
-                0x00001ec6                _ZN7LCDBase4InitEv
+                0x00001eca       0x34 EALLib/LCDBase.o
+                0x00001eca                _ZN7LCDBase4InitEv
  .text._ZN7LCDBase9ClearLineEs
-                0x00001efa       0x36 EALLib/LCDBase.o
-                0x00001efa                _ZN7LCDBase9ClearLineEs
+                0x00001efe       0x36 EALLib/LCDBase.o
+                0x00001efe                _ZN7LCDBase9ClearLineEs
  .text._ZN7LCDBase9PrintLineEs6String
-                0x00001f30       0x46 EALLib/LCDBase.o
-                0x00001f30                _ZN7LCDBase9PrintLineEs6String
+                0x00001f34       0x46 EALLib/LCDBase.o
+                0x00001f34                _ZN7LCDBase9PrintLineEs6String
  .text._ZN7LCDBase14DetectKeyPressEv
-                0x00001f76       0x5e EALLib/LCDBase.o
-                0x00001f76                _ZN7LCDBase14DetectKeyPressEv
+                0x00001f7a       0x5e EALLib/LCDBase.o
+                0x00001f7a                _ZN7LCDBase14DetectKeyPressEv
  .text._ZN7LCDBase13getKeyFromValEj
-                0x00001fd4       0x8a EALLib/LCDBase.o
-                0x00001fd4                _ZN7LCDBase13getKeyFromValEj
+                0x00001fd8       0x8a EALLib/LCDBase.o
+                0x00001fd8                _ZN7LCDBase13getKeyFromValEj
  .text._ZN7LCDBase6getKeyEv
-                0x0000205e       0x36 EALLib/LCDBase.o
-                0x0000205e                _ZN7LCDBase6getKeyEv
- .text._ZnwjPv  0x00002094       0x20 EALLib/MathExt.o
-                0x00002094                _ZnwjPv
- .text._ZN7MathExt10GetAverageESt6vectorIdSaIdEE
-                0x000020b4       0x7c EALLib/MathExt.o
-                0x000020b4                _ZN7MathExt10GetAverageESt6vectorIdSaIdEE
+                0x00002062       0x36 EALLib/LCDBase.o
+                0x00002062                _ZN7LCDBase6getKeyEv
  .text._ZN7MathExt16CalculateAverageEPii
-                0x00002130      0x2c0 EALLib/MathExt.o
-                0x00002130                _ZN7MathExt16CalculateAverageEPii
- .text._ZNSt6vectorIdSaIdEE5beginEv
-                0x000023f0       0x22 EALLib/MathExt.o
-                0x000023f0                _ZNSt6vectorIdSaIdEE5beginEv
- .text._ZNSt6vectorIdSaIdEE3endEv
-                0x00002412       0x38 EALLib/MathExt.o
-                0x00002412                _ZNSt6vectorIdSaIdEE3endEv
- .text._ZSt10accumulateIPddET0_T_S2_S1_
-                0x0000244a       0x74 EALLib/MathExt.o
-                0x0000244a                _ZSt10accumulateIPddET0_T_S2_S1_
- .text._ZNKSt6vectorIdSaIdEE4sizeEv
-                0x000024be       0x22 EALLib/MathExt.o
-                0x000024be                _ZNKSt6vectorIdSaIdEE4sizeEv
- .text._ZNSaIdEC2Ev
-                0x000024e0       0x18 EALLib/MathExt.o
-                0x000024e0                _ZNSaIdEC1Ev
-                0x000024e0                _ZNSaIdEC2Ev
- .text._ZNSaIdED2Ev
-                0x000024f8       0x18 EALLib/MathExt.o
-                0x000024f8                _ZNSaIdED2Ev
-                0x000024f8                _ZNSaIdED1Ev
- .text._ZNSt6vectorIdSaIdEED2Ev
-                0x00002510       0x86 EALLib/MathExt.o
-                0x00002510                _ZNSt6vectorIdSaIdEED1Ev
-                0x00002510                _ZNSt6vectorIdSaIdEED2Ev
- .text._ZNSaIdE8allocateEjPKv
-                0x00002596       0x30 EALLib/MathExt.o
-                0x00002596                _ZNSaIdE8allocateEjPKv
- .text._ZNSt6vectorIdSaIdEE6resizeEjRKd
-                0x000025c6       0xc8 EALLib/MathExt.o
-                0x000025c6                _ZNSt6vectorIdSaIdEE6resizeEjRKd
- .text._ZNSaIdE7destroyEPd
-                0x0000268e       0x1c EALLib/MathExt.o
-                0x0000268e                _ZNSaIdE7destroyEPd
- .text._ZNSaIdE10deallocateEPdj
-                0x000026aa       0x28 EALLib/MathExt.o
-                0x000026aa                _ZNSaIdE10deallocateEPdj
- .text._ZNSt6vectorIdSaIdEE7reserveEj
-                0x000026d2      0x10e EALLib/MathExt.o
-                0x000026d2                _ZNSt6vectorIdSaIdEE7reserveEj
- .text._ZNSaIdE9constructEPdRKd
-                0x000027e0       0x4c EALLib/MathExt.o
-                0x000027e0                _ZNSaIdE9constructEPdRKd
- .text._ZNSt6vectorIdSaIdEE8downsizeEj
-                0x0000282c       0x8a EALLib/MathExt.o
-                0x0000282c                _ZNSt6vectorIdSaIdEE8downsizeEj
+                0x00002098      0x2c0 EALLib/MathExt.o
+                0x00002098                _ZN7MathExt16CalculateAverageEPii
  .text._ZNK6String5c_strEv
-                0x000028b6       0x22 EALLib/PHSensor.o
-                0x000028b6                _ZNK6String5c_strEv
+                0x00002358       0x22 EALLib/PHSensor.o
+                0x00002358                _ZNK6String5c_strEv
  .text._ZN15StringSumHelperC2EPKc
-                0x000028d8       0x2a EALLib/PHSensor.o
-                0x000028d8                _ZN15StringSumHelperC1EPKc
-                0x000028d8                _ZN15StringSumHelperC2EPKc
+                0x0000237a       0x2a EALLib/PHSensor.o
+                0x0000237a                _ZN15StringSumHelperC1EPKc
+                0x0000237a                _ZN15StringSumHelperC2EPKc
  .text._ZN5EERefC2Ei
-                0x00002902       0x2a EALLib/PHSensor.o
-                0x00002902                _ZN5EERefC1Ei
-                0x00002902                _ZN5EERefC2Ei
+                0x000023a4       0x2a EALLib/PHSensor.o
+                0x000023a4                _ZN5EERefC1Ei
+                0x000023a4                _ZN5EERefC2Ei
  .text._ZNK5EERefdeEv
-                0x0000292c       0x26 EALLib/PHSensor.o
-                0x0000292c                _ZNK5EERefdeEv
+                0x000023ce       0x26 EALLib/PHSensor.o
+                0x000023ce                _ZNK5EERefdeEv
  .text._ZNK5EERefcvKhEv
-                0x00002952       0x1e EALLib/PHSensor.o
-                0x00002952                _ZNK5EERefcvKhEv
+                0x000023f4       0x1e EALLib/PHSensor.o
+                0x000023f4                _ZNK5EERefcvKhEv
  .text._ZN5EERefaSEh
-                0x00002970       0x2e EALLib/PHSensor.o
-                0x00002970                _ZN5EERefaSEh
+                0x00002412       0x2e EALLib/PHSensor.o
+                0x00002412                _ZN5EERefaSEh
  .text._ZN5EERef6updateEh
-                0x0000299e       0x36 EALLib/PHSensor.o
-                0x0000299e                _ZN5EERef6updateEh
+                0x00002440       0x36 EALLib/PHSensor.o
+                0x00002440                _ZN5EERef6updateEh
  .text._ZN11EEPROMClassixEi
-                0x000029d4       0x2c EALLib/PHSensor.o
-                0x000029d4                _ZN11EEPROMClassixEi
+                0x00002476       0x2c EALLib/PHSensor.o
+                0x00002476                _ZN11EEPROMClassixEi
  .text._ZN2ee5tools18EEReadBlockElementEPcPhj
-                0x00002a00       0x6e EALLib/PHSensor.o
-                0x00002a00                _ZN2ee5tools18EEReadBlockElementEPcPhj
+                0x000024a2       0x6e EALLib/PHSensor.o
+                0x000024a2                _ZN2ee5tools18EEReadBlockElementEPcPhj
  .text._ZN2ee5tools19EEWriteBlockElementEPKcPhj
-                0x00002a6e       0x74 EALLib/PHSensor.o
-                0x00002a6e                _ZN2ee5tools19EEWriteBlockElementEPKcPhj
+                0x00002510       0x74 EALLib/PHSensor.o
+                0x00002510                _ZN2ee5tools19EEWriteBlockElementEPKcPhj
  .text._ZN5PrintC2ERKS_
-                0x00002ae2       0x3e EALLib/PHSensor.o
-                0x00002ae2                _ZN5PrintC2ERKS_
-                0x00002ae2                _ZN5PrintC1ERKS_
+                0x00002584       0x3e EALLib/PHSensor.o
+                0x00002584                _ZN5PrintC2ERKS_
+                0x00002584                _ZN5PrintC1ERKS_
  .text._ZN13LiquidCrystalC2ERKS_
-                0x00002b20       0xec EALLib/PHSensor.o
-                0x00002b20                _ZN13LiquidCrystalC1ERKS_
-                0x00002b20                _ZN13LiquidCrystalC2ERKS_
+                0x000025c2       0xec EALLib/PHSensor.o
+                0x000025c2                _ZN13LiquidCrystalC1ERKS_
+                0x000025c2                _ZN13LiquidCrystalC2ERKS_
  .text._ZN7LCDBaseC2ERKS_
-                0x00002c0c       0x64 EALLib/PHSensor.o
-                0x00002c0c                _ZN7LCDBaseC2ERKS_
-                0x00002c0c                _ZN7LCDBaseC1ERKS_
+                0x000026ae       0x64 EALLib/PHSensor.o
+                0x000026ae                _ZN7LCDBaseC2ERKS_
+                0x000026ae                _ZN7LCDBaseC1ERKS_
  .text._ZN8PHSensorC2Eiib7LCDBasei
-                0x00002c70      0x100 EALLib/PHSensor.o
-                0x00002c70                _ZN8PHSensorC2Eiib7LCDBasei
-                0x00002c70                _ZN8PHSensorC1Eiib7LCDBasei
+                0x00002712       0xb6 EALLib/PHSensor.o
+                0x00002712                _ZN8PHSensorC2Eiib7LCDBasei
+                0x00002712                _ZN8PHSensorC1Eiib7LCDBasei
  .text._ZN8PHSensor4initEv
-                0x00002d70       0x7e EALLib/PHSensor.o
-                0x00002d70                _ZN8PHSensor4initEv
+                0x000027c8       0x7e EALLib/PHSensor.o
+                0x000027c8                _ZN8PHSensor4initEv
  .text._ZN8PHSensor6UpdateEd
-                0x00002dee       0x6a EALLib/PHSensor.o
-                0x00002dee                _ZN8PHSensor6UpdateEd
+                0x00002846       0x6a EALLib/PHSensor.o
+                0x00002846                _ZN8PHSensor6UpdateEd
  .text._ZN8PHSensor5GetPHEv
-                0x00002e58       0xac EALLib/PHSensor.o
-                0x00002e58                _ZN8PHSensor5GetPHEv
+                0x000028b0       0x6c EALLib/PHSensor.o
+                0x000028b0                _ZN8PHSensor5GetPHEv
  .text._ZN8PHSensor11CalculatePHEv
-                0x00002f04      0x376 EALLib/PHSensor.o
-                0x00002f04                _ZN8PHSensor11CalculatePHEv
+                0x0000291c       0x4a EALLib/PHSensor.o
+                0x0000291c                _ZN8PHSensor11CalculatePHEv
  .text._ZN8PHSensor10getPHValueEv
-                0x0000327a      0x214 EALLib/PHSensor.o
-                0x0000327a                _ZN8PHSensor10getPHValueEv
+                0x00002966      0x236 EALLib/PHSensor.o
+                0x00002966                _ZN8PHSensor10getPHValueEv
  .text._ZN15StringSumHelperD2Ev
-                0x0000348e       0x20 EALLib/PHSensor.o
-                0x0000348e                _ZN15StringSumHelperD1Ev
-                0x0000348e                _ZN15StringSumHelperD2Ev
+                0x00002b9c       0x20 EALLib/PHSensor.o
+                0x00002b9c                _ZN15StringSumHelperD1Ev
+                0x00002b9c                _ZN15StringSumHelperD2Ev
  .text._ZN8PHSensor12PrintPHToLCDEv
-                0x000034ae      0x182 EALLib/PHSensor.o
-                0x000034ae                _ZN8PHSensor12PrintPHToLCDEv
+                0x00002bbc      0x16e EALLib/PHSensor.o
+                0x00002bbc                _ZN8PHSensor12PrintPHToLCDEv
  .text._ZN8PHSensor6TurnOnEv
-                0x00003630       0x3a EALLib/PHSensor.o
-                0x00003630                _ZN8PHSensor6TurnOnEv
+                0x00002d2a       0x3a EALLib/PHSensor.o
+                0x00002d2a                _ZN8PHSensor6TurnOnEv
  .text._ZN8PHSensor7TurnOffEv
-                0x0000366a       0x44 EALLib/PHSensor.o
-                0x0000366a                _ZN8PHSensor7TurnOffEv
- .text._ZN8PHSensor9isOutlierEdd
-                0x000036ae       0xb2 EALLib/PHSensor.o
-                0x000036ae                _ZN8PHSensor9isOutlierEdd
- .text._ZNSt6vectorIdSaIdEEC2ERKS0_
-                0x00003760       0x64 EALLib/PHSensor.o
-                0x00003760                _ZNSt6vectorIdSaIdEEC1ERKS0_
-                0x00003760                _ZNSt6vectorIdSaIdEEC2ERKS0_
+                0x00002d64       0x44 EALLib/PHSensor.o
+                0x00002d64                _ZN8PHSensor7TurnOffEv
  .text._ZN6EEWrapIfEcvKfEv
-                0x000037c4       0x26 EALLib/PHSensor.o
-                0x000037c4                _ZN6EEWrapIfEcvKfEv
+                0x00002da8       0x26 EALLib/PHSensor.o
+                0x00002da8                _ZN6EEWrapIfEcvKfEv
  .text._ZN6EEWrapIfEaSERKf
-                0x000037ea       0x28 EALLib/PHSensor.o
-                0x000037ea                _ZN6EEWrapIfEaSERKf
- .text._ZNSt6vectorIdSaIdEE9push_backERKd
-                0x00003812       0x38 EALLib/PHSensor.o
-                0x00003812                _ZNSt6vectorIdSaIdEE9push_backERKd
- .text._ZNSt6vectorIdSaIdEEC2ERKS1_
-                0x0000384a       0xe0 EALLib/PHSensor.o
-                0x0000384a                _ZNSt6vectorIdSaIdEEC2ERKS1_
-                0x0000384a                _ZNSt6vectorIdSaIdEEC1ERKS1_
- .text._ZNSt6vectorIdSaIdEEixEj
-                0x0000392a       0x36 EALLib/PHSensor.o
-                0x0000392a                _ZNSt6vectorIdSaIdEEixEj
+                0x00002dce       0x28 EALLib/PHSensor.o
+                0x00002dce                _ZN6EEWrapIfEaSERKf
  .text._ZN2ee11EEMultiByteI6EEWrapIfEfE6EEReadEv
-                0x00003960       0x40 EALLib/PHSensor.o
-                0x00003960                _ZN2ee11EEMultiByteI6EEWrapIfEfE6EEReadEv
+                0x00002df6       0x40 EALLib/PHSensor.o
+                0x00002df6                _ZN2ee11EEMultiByteI6EEWrapIfEfE6EEReadEv
  .text._ZN2ee11EEMultiByteI6EEWrapIfEfE7EEWriteERKf
-                0x000039a0       0x3c EALLib/PHSensor.o
-                0x000039a0                _ZN2ee11EEMultiByteI6EEWrapIfEfE7EEWriteERKf
+                0x00002e36       0x3c EALLib/PHSensor.o
+                0x00002e36                _ZN2ee11EEMultiByteI6EEWrapIfEfE7EEWriteERKf
  .text._ZN2ee11EEMultiByteI6EEWrapIfEfE4selfEv
-                0x000039dc       0x1c EALLib/PHSensor.o
-                0x000039dc                _ZN2ee11EEMultiByteI6EEWrapIfEfE4selfEv
+                0x00002e72       0x1c EALLib/PHSensor.o
+                0x00002e72                _ZN2ee11EEMultiByteI6EEWrapIfEfE4selfEv
  .text._ZN9TDSSensorC2Eiib7LCDBasei
-                0x000039f8       0xca EALLib/TDSSensor.o
-                0x000039f8                _ZN9TDSSensorC1Eiib7LCDBasei
-                0x000039f8                _ZN9TDSSensorC2Eiib7LCDBasei
+                0x00002e8e       0xa8 EALLib/TDSSensor.o
+                0x00002e8e                _ZN9TDSSensorC1Eiib7LCDBasei
+                0x00002e8e                _ZN9TDSSensorC2Eiib7LCDBasei
  .text._ZN9TDSSensor4initEv
-                0x00003ac2       0x94 EALLib/TDSSensor.o
-                0x00003ac2                _ZN9TDSSensor4initEv
+                0x00002f36       0x90 EALLib/TDSSensor.o
+                0x00002f36                _ZN9TDSSensor4initEv
  .text._ZN9TDSSensor6UpdateEi
-                0x00003b56       0x46 EALLib/TDSSensor.o
-                0x00003b56                _ZN9TDSSensor6UpdateEi
+                0x00002fc6       0x46 EALLib/TDSSensor.o
+                0x00002fc6                _ZN9TDSSensor6UpdateEi
  .text._ZN9TDSSensor6GetTDSEv
-                0x00003b9c       0xb0 EALLib/TDSSensor.o
-                0x00003b9c                _ZN9TDSSensor6GetTDSEv
+                0x0000300c       0x64 EALLib/TDSSensor.o
+                0x0000300c                _ZN9TDSSensor6GetTDSEv
  .text._ZN9TDSSensor13PrintTDSToLCDEv
-                0x00003c4c      0x198 EALLib/TDSSensor.o
-                0x00003c4c                _ZN9TDSSensor13PrintTDSToLCDEv
+                0x00003070      0x176 EALLib/TDSSensor.o
+                0x00003070                _ZN9TDSSensor13PrintTDSToLCDEv
  .text._ZN9TDSSensor12CalculateTDSEv
-                0x00003de4      0x264 EALLib/TDSSensor.o
-                0x00003de4                _ZN9TDSSensor12CalculateTDSEv
+                0x000031e6       0x42 EALLib/TDSSensor.o
+                0x000031e6                _ZN9TDSSensor12CalculateTDSEv
  .text._ZN9TDSSensor11getTDSValueEv
-                0x00004048      0x182 EALLib/TDSSensor.o
-                0x00004048                _ZN9TDSSensor11getTDSValueEv
+                0x00003228      0x1ba EALLib/TDSSensor.o
+                0x00003228                _ZN9TDSSensor11getTDSValueEv
  .text._ZN9TDSSensor6TurnOnEv
-                0x000041ca       0x3a EALLib/TDSSensor.o
-                0x000041ca                _ZN9TDSSensor6TurnOnEv
+                0x000033e2       0x32 EALLib/TDSSensor.o
+                0x000033e2                _ZN9TDSSensor6TurnOnEv
  .text._ZN9TDSSensor7TurnOffEv
-                0x00004204       0x44 EALLib/TDSSensor.o
-                0x00004204                _ZN9TDSSensor7TurnOffEv
+                0x00003414       0x3c EALLib/TDSSensor.o
+                0x00003414                _ZN9TDSSensor7TurnOffEv
  .text._ZN6EEWrapIiEcvKiEv
-                0x00004248       0x1e EALLib/TDSSensor.o
-                0x00004248                _ZN6EEWrapIiEcvKiEv
+                0x00003450       0x1e EALLib/TDSSensor.o
+                0x00003450                _ZN6EEWrapIiEcvKiEv
  .text._ZN6EEWrapIiEaSERKi
-                0x00004266       0x28 EALLib/TDSSensor.o
-                0x00004266                _ZN6EEWrapIiEaSERKi
+                0x0000346e       0x28 EALLib/TDSSensor.o
+                0x0000346e                _ZN6EEWrapIiEaSERKi
  .text._ZN2ee11EEMultiByteI6EEWrapIiEiE6EEReadEv
-                0x0000428e       0x3a EALLib/TDSSensor.o
-                0x0000428e                _ZN2ee11EEMultiByteI6EEWrapIiEiE6EEReadEv
+                0x00003496       0x3a EALLib/TDSSensor.o
+                0x00003496                _ZN2ee11EEMultiByteI6EEWrapIiEiE6EEReadEv
  .text._ZN2ee11EEMultiByteI6EEWrapIiEiE7EEWriteERKi
-                0x000042c8       0x3e EALLib/TDSSensor.o
-                0x000042c8                _ZN2ee11EEMultiByteI6EEWrapIiEiE7EEWriteERKi
+                0x000034d0       0x3c EALLib/TDSSensor.o
+                0x000034d0                _ZN2ee11EEMultiByteI6EEWrapIiEiE7EEWriteERKi
  .text._ZN2ee11EEMultiByteI6EEWrapIiEiE4selfEv
-                0x00004306       0x1c EALLib/TDSSensor.o
-                0x00004306                _ZN2ee11EEMultiByteI6EEWrapIiEiE4selfEv
+                0x0000350c       0x1c EALLib/TDSSensor.o
+                0x0000350c                _ZN2ee11EEMultiByteI6EEWrapIiEiE4selfEv
  .text._ZNK6String6lengthEv
-                0x00004322       0x22 EALLib/WaterSensorWire.o
-                0x00004322                _ZNK6String6lengthEv
+                0x00003528       0x22 EALLib/WaterSensorWire.o
+                0x00003528                _ZNK6String6lengthEv
  .text._ZN6StringpLEPKc
-                0x00004344       0x2e EALLib/WaterSensorWire.o
-                0x00004344                _ZN6StringpLEPKc
+                0x0000354a       0x2e EALLib/WaterSensorWire.o
+                0x0000354a                _ZN6StringpLEPKc
  .text._ZNK6StringeqEPKc
-                0x00004372       0x2a EALLib/WaterSensorWire.o
-                0x00004372                _ZNK6StringeqEPKc
- .text._ZNK6String11toCharArrayEPcjj
-                0x0000439c       0x38 EALLib/WaterSensorWire.o
-                0x0000439c                _ZNK6String11toCharArrayEPcjj
+                0x00003578       0x2a EALLib/WaterSensorWire.o
+                0x00003578                _ZNK6StringeqEPKc
  .text._ZN15StringSumHelperC2ERK6String
-                0x000043d4       0x2a EALLib/WaterSensorWire.o
-                0x000043d4                _ZN15StringSumHelperC1ERK6String
-                0x000043d4                _ZN15StringSumHelperC2ERK6String
+                0x000035a2       0x2a EALLib/WaterSensorWire.o
+                0x000035a2                _ZN15StringSumHelperC1ERK6String
+                0x000035a2                _ZN15StringSumHelperC2ERK6String
  .text._ZN15WaterSensorWire5SetupEv
-                0x000043fe       0x50 EALLib/WaterSensorWire.o
-                0x000043fe                _ZN15WaterSensorWire5SetupEv
+                0x000035cc       0x50 EALLib/WaterSensorWire.o
+                0x000035cc                _ZN15WaterSensorWire5SetupEv
  .text._ZN15WaterSensorWire4LoopEv
-                0x0000444e      0x172 EALLib/WaterSensorWire.o
-                0x0000444e                _ZN15WaterSensorWire4LoopEv
+                0x0000361c      0x1d2 EALLib/WaterSensorWire.o
+                0x0000361c                _ZN15WaterSensorWire4LoopEv
  .text._ZN15WaterSensorWire7ReceiveEi
-                0x000045c0      0x1f4 EALLib/WaterSensorWire.o
-                0x000045c0                _ZN15WaterSensorWire7ReceiveEi
+                0x000037ee      0x1f4 EALLib/WaterSensorWire.o
+                0x000037ee                _ZN15WaterSensorWire7ReceiveEi
  .text._ZN15WaterSensorWire7RequestEv
-                0x000047b4      0x27a EALLib/WaterSensorWire.o
-                0x000047b4                _ZN15WaterSensorWire7RequestEv
+                0x000039e2      0x1a0 EALLib/WaterSensorWire.o
+                0x000039e2                _ZN15WaterSensorWire7RequestEv
  .text._ZN15WaterSensorWire8TransmitE6String
-                0x00004a2e       0xa0 EALLib/WaterSensorWire.o
-                0x00004a2e                _ZN15WaterSensorWire8TransmitE6String
+                0x00003b82       0xa0 EALLib/WaterSensorWire.o
+                0x00003b82                _ZN15WaterSensorWire8TransmitE6String
  .text._ZN15WaterSensorWire11SplitStringE6Stringci
-                0x00004ace      0x106 EALLib/WaterSensorWire.o
-                0x00004ace                _ZN15WaterSensorWire11SplitStringE6Stringci
+                0x00003c22      0x106 EALLib/WaterSensorWire.o
+                0x00003c22                _ZN15WaterSensorWire11SplitStringE6Stringci
  .text._Z41__static_initialization_and_destruction_0ii
-                0x00004bd4       0xa0 EALLib/WaterSensorWire.o
+                0x00003d28      0x130 EALLib/WaterSensorWire.o
  .text._GLOBAL__sub_I__ZN15WaterSensorWire5SetupEv
-                0x00004c74       0x1c EALLib/WaterSensorWire.o
+                0x00003e58       0x1c EALLib/WaterSensorWire.o
  .text._GLOBAL__sub_D__ZN15WaterSensorWire5SetupEv
-                0x00004c90       0x1c EALLib/WaterSensorWire.o
+                0x00003e74       0x1c EALLib/WaterSensorWire.o
  .text._ZN8PHSensorD2Ev
-                0x00004cac       0x3c EALLib/_globalsWaterSensors.o
-                0x00004cac                _ZN8PHSensorD1Ev
-                0x00004cac                _ZN8PHSensorD2Ev
+                0x00003e90       0x24 EALLib/_globalsWaterSensors.o
+                0x00003e90                _ZN8PHSensorD1Ev
+                0x00003e90                _ZN8PHSensorD2Ev
  .text._ZN9TDSSensorD2Ev
-                0x00004ce8       0x30 EALLib/_globalsWaterSensors.o
-                0x00004ce8                _ZN9TDSSensorD2Ev
-                0x00004ce8                _ZN9TDSSensorD1Ev
+                0x00003eb4       0x24 EALLib/_globalsWaterSensors.o
+                0x00003eb4                _ZN9TDSSensorD2Ev
+                0x00003eb4                _ZN9TDSSensorD1Ev
  .text._ZN7Globals13SwitchSensorsEv
-                0x00004d18       0x44 EALLib/_globalsWaterSensors.o
-                0x00004d18                _ZN7Globals13SwitchSensorsEv
+                0x00003ed8       0x44 EALLib/_globalsWaterSensors.o
+                0x00003ed8                _ZN7Globals13SwitchSensorsEv
  .text._Z41__static_initialization_and_destruction_0ii
-                0x00004d5c       0xf4 EALLib/_globalsWaterSensors.o
+                0x00003f1c       0xf4 EALLib/_globalsWaterSensors.o
  .text._GLOBAL__sub_I__ZN7Globals12_phSensorPinE
-                0x00004e50       0x1c EALLib/_globalsWaterSensors.o
+                0x00004010       0x1c EALLib/_globalsWaterSensors.o
  .text._GLOBAL__sub_D__ZN7Globals12_phSensorPinE
-                0x00004e6c       0x1c EALLib/_globalsWaterSensors.o
+                0x0000402c       0x1c EALLib/_globalsWaterSensors.o
  .text._ZN14HardwareSerial5beginEm
-                0x00004e88       0x36 Sketch.o
-                0x00004e88                _ZN14HardwareSerial5beginEm
+                0x00004048       0x36 Sketch.o
+                0x00004048                _ZN14HardwareSerial5beginEm
  .text._ZN14HardwareSerialcvbEv
-                0x00004ebe       0x1a Sketch.o
-                0x00004ebe                _ZN14HardwareSerialcvbEv
- .text.setup    0x00004ed8       0x80 Sketch.o
-                0x00004ed8                setup
- .text.loop     0x00004f58       0x32 Sketch.o
-                0x00004f58                loop
+                0x0000407e       0x1a Sketch.o
+                0x0000407e                _ZN14HardwareSerialcvbEv
+ .text.setup    0x00004098       0x80 Sketch.o
+                0x00004098                setup
+ .text.loop     0x00004118       0x32 Sketch.o
+                0x00004118                loop
  .text._Z11AsyncDoWorkv
-                0x00004f8a      0x11a Sketch.o
-                0x00004f8a                _Z11AsyncDoWorkv
+                0x0000414a      0x11a Sketch.o
+                0x0000414a                _Z11AsyncDoWorkv
  .text._Z41__static_initialization_and_destruction_0ii
-                0x000050a4       0x34 Sketch.o
+                0x00004264       0x34 Sketch.o
  .text._GLOBAL__sub_I__asyncTimer
-                0x000050d8       0x1c Sketch.o
+                0x00004298       0x1c Sketch.o
  .text.avr-libc.fplib
-                0x000050f4        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x000050f4                __subsf3
-                0x000050f6                __addsf3
+                0x000042b4        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x000042b4                __subsf3
+                0x000042b6                __addsf3
  .text.avr-libc.fplib
-                0x000050fe       0xc0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x00005118                __addsf3x
+                0x000042be       0xc0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x000042d8                __addsf3x
  .text.avr-libc.fplib
-                0x000051be        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                0x000051be                __nesf2
-                0x000051be                __eqsf2
-                0x000051be                __cmpsf2
-                0x000051be                __ltsf2
-                0x000051be                __lesf2
+                0x0000437e        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x0000437e                __nesf2
+                0x0000437e                __eqsf2
+                0x0000437e                __cmpsf2
+                0x0000437e                __ltsf2
+                0x0000437e                __lesf2
  .text.avr-libc.fplib
-                0x000051c6        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x000051c6                __divsf3
+                0x00004386        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00004386                __divsf3
  .text.avr-libc.fplib
-                0x000051ca       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x000051e0                __divsf3x
-                0x000051e4                __divsf3_pse
+                0x0000438a       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x000043a0                __divsf3x
+                0x000043a4                __divsf3_pse
  .text.avr-libc.fplib
-                0x00005296        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
-                0x00005296                __fixsfsi
+                0x00004456        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x00004456                __fixsfsi
  .text.avr-libc.fplib
-                0x000052a0       0x58 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x000052a0                __fixunssfsi
+                0x00004460       0x58 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00004460                __fixunssfsi
  .text.avr-libc.fplib
-                0x000052f8       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x000052f8                __floatunsisf
-                0x000052fc                __floatsisf
+                0x000044b8       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x000044b8                __floatunsisf
+                0x000044bc                __floatsisf
  .text.avr-libc.fplib
-                0x00005372       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
-                0x00005372                __fp_cmp
+                0x00004532       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00004532                __fp_cmp
  .text.avr-libc.fplib
-                0x000053ba        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x000053ba                __fp_inf
+                0x0000457a        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x0000457a                __fp_inf
  .text.avr-libc.fplib
-                0x000053c6        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x000053c6                __fp_nan
+                0x00004586        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00004586                __fp_nan
  .text.avr-libc.fplib
-                0x000053cc        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x000053cc                __fp_pscA
+                0x0000458c        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x0000458c                __fp_pscA
  .text.avr-libc.fplib
-                0x000053da        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x000053da                __fp_pscB
+                0x0000459a        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x0000459a                __fp_pscB
  .text.avr-libc.fplib
-                0x000053e8       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x000053e8                __fp_round
+                0x000045a8       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x000045a8                __fp_round
  .text.avr-libc.fplib
-                0x0000540a       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x0000540a                __fp_split3
-                0x0000541a                __fp_splitA
+                0x000045ca       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x000045ca                __fp_split3
+                0x000045da                __fp_splitA
  .text.avr-libc.fplib
-                0x0000544e        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x0000544e                __fp_zero
-                0x00005450                __fp_szero
+                0x0000460e        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000460e                __fp_zero
+                0x00004610                __fp_szero
  .text.avr-libc.fplib
-                0x0000545c        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                0x0000545c                __gesf2
-                0x0000545c                __gtsf2
+                0x0000461c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x0000461c                __mulsf3
  .text.avr-libc.fplib
-                0x00005464        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00005464                __mulsf3
+                0x00004620       0xc2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00004634                __mulsf3x
+                0x00004638                __mulsf3_pse
  .text.avr-libc.fplib
-                0x00005468       0xc2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x0000547c                __mulsf3x
-                0x00005480                __mulsf3_pse
- .text.avr-libc.fplib
-                0x0000552a        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
-                0x0000552a                __unordsf2
+                0x000046e2        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                0x000046e2                __unordsf2
  .text.__cxa_pure_virtual
-                0x00005532        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
-                0x00005532                __cxa_pure_virtual
+                0x000046ea        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x000046ea                __cxa_pure_virtual
  .text._ZN14HardwareSerial9availableEv
-                0x00005536       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00005536                _ZN14HardwareSerial9availableEv
+                0x000046ee       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000046ee                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x0000554e       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000554e                _ZN14HardwareSerial4peekEv
+                0x00004706       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00004706                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x0000556a       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000556a                _ZN14HardwareSerial4readEv
+                0x00004722       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00004722                _ZN14HardwareSerial4readEv
  .text._Z14serialEventRunv
-                0x00005592       0x1a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00005592                _Z14serialEventRunv
+                0x0000474a       0x1a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000474a                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x000055ac       0x42 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000055ac                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00004764       0x42 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00004764                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5flushEv
-                0x000055ee       0x42 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000055ee                _ZN14HardwareSerial5flushEv
+                0x000047a6       0x42 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000047a6                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5writeEh
-                0x00005630       0x8c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00005630                _ZN14HardwareSerial5writeEh
+                0x000047e8       0x8c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000047e8                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5beginEmh
-                0x000056bc       0xc8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000056bc                _ZN14HardwareSerial5beginEmh
+                0x00004874       0xc6 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00004874                _ZN14HardwareSerial5beginEmh
  .text.__vector_18
-                0x00005784       0x64 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00005784                __vector_18
+                0x0000493a       0x64 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000493a                __vector_18
  .text.__vector_19
-                0x000057e8       0x4a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x000057e8                __vector_19
+                0x0000499e       0x4a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0000499e                __vector_19
  .text._Z17Serial0_availablev
-                0x00005832       0x12 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00005832                _Z17Serial0_availablev
+                0x000049e8       0x12 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000049e8                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x00005844       0x5a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000049fa       0x5a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x0000589e        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x0000589e                initVariant
+                0x00004a54        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00004a54                initVariant
  .text.startup.main
-                0x000058a0       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x000058a0                main
- .text._Znwj    0x000058b4        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
-                0x000058b4                _Znwj
- .text._ZdlPv   0x000058b6        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
-                0x000058b6                _ZdlPv
+                0x00004a56       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00004a56                main
  .text._ZN5Print5writeEPKhj
-                0x000058ba       0x56 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000058ba                _ZN5Print5writeEPKhj
+                0x00004a6a       0x56 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004a6a                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x00005910       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005910                _ZN5Print5writeEPKc
+                0x00004ac0       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004ac0                _ZN5Print5writeEPKc
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x0000593a       0x48 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000593a                _ZN5Print5printEPK19__FlashStringHelper
+                0x00004aea       0x48 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004aea                _ZN5Print5printEPK19__FlashStringHelper
  .text._ZN5Print5printERK6String
-                0x00005982       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005982                _ZN5Print5printERK6String
+                0x00004b32       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004b32                _ZN5Print5printERK6String
  .text._ZN5Print5printEc
-                0x0000599e        0xe C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000599e                _ZN5Print5printEc
+                0x00004b4e        0xe C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004b4e                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x000059ac        0x6 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000059ac                _ZN5Print7printlnEv
+                0x00004b5c        0x6 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004b5c                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPK19__FlashStringHelper
-                0x000059b2       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000059b2                _ZN5Print7printlnEPK19__FlashStringHelper
+                0x00004b62       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004b62                _ZN5Print7printlnEPK19__FlashStringHelper
  .text._ZN5Print7printlnERK6String
-                0x000059d2       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000059d2                _ZN5Print7printlnERK6String
+                0x00004b82       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004b82                _ZN5Print7printlnERK6String
  .text._ZN5Print11printNumberEmh
-                0x000059f2       0xa4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x000059f2                _ZN5Print11printNumberEmh
+                0x00004ba2       0xa4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004ba2                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEli
-                0x00005a96       0x8e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005a96                _ZN5Print5printEli
+                0x00004c46       0x8e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004c46                _ZN5Print5printEli
  .text._ZN5Print7printlnEii
-                0x00005b24       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005b24                _ZN5Print7printlnEii
+                0x00004cd4       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004cd4                _ZN5Print7printlnEii
  .text._ZN5Print5printEmi
-                0x00005b4e       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005b4e                _ZN5Print5printEmi
+                0x00004cfe       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004cfe                _ZN5Print5printEmi
  .text._ZN5Print7printlnEhi
-                0x00005b66       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005b66                _ZN5Print7printlnEhi
- .text._ZN5Print10printFloatEdh
-                0x00005b90      0x1a2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005b90                _ZN5Print10printFloatEdh
- .text._ZN5Print7printlnEdi
-                0x00005d32       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00005d32                _ZN5Print7printlnEdi
+                0x00004d16       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00004d16                _ZN5Print7printlnEhi
  .text.__vector_16
-                0x00005d52       0x94 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00005d52                __vector_16
- .text.millis   0x00005de6       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00005de6                millis
- .text.micros   0x00005dfe       0x4a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00005dfe                micros
- .text.delay    0x00005e48       0x72 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00005e48                delay
+                0x00004d40       0x94 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00004d40                __vector_16
+ .text.millis   0x00004dd4       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00004dd4                millis
+ .text.micros   0x00004dec       0x4a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00004dec                micros
+ .text.delay    0x00004e36       0x72 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00004e36                delay
  .text.delayMicroseconds
-                0x00005eba       0x16 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00005eba                delayMicroseconds
- .text.init     0x00005ed0       0x76 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00005ed0                init
+                0x00004ea8       0x16 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00004ea8                delayMicroseconds
+ .text.init     0x00004ebe       0x76 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00004ebe                init
  .text.analogRead
-                0x00005f46       0x3a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
-                0x00005f46                analogRead
+                0x00004f34       0x3a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00004f34                analogRead
  .text.turnOffPWM
-                0x00005f80       0x52 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x00005fd2       0x78 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00005fd2                pinMode
+                0x00004f6e       0x52 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00004fc0       0x78 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00004fc0                pinMode
  .text.digitalWrite
-                0x0000604a       0x5e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000604a                digitalWrite
+                0x00005038       0x5e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00005038                digitalWrite
  .text.digitalRead
-                0x000060a8       0x50 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000060a8                digitalRead
+                0x00005096       0x50 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00005096                digitalRead
  .text._ZN6StringD2Ev
-                0x000060f8        0x8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000060f8                _ZN6StringD2Ev
-                0x000060f8                _ZN6StringD1Ev
+                0x000050e6        0x8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000050e6                _ZN6StringD2Ev
+                0x000050e6                _ZN6StringD1Ev
  .text._ZN6String10invalidateEv
-                0x00006100       0x22 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006100                _ZN6String10invalidateEv
+                0x000050ee       0x22 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000050ee                _ZN6String10invalidateEv
  .text._ZN6String12changeBufferEj
-                0x00006122       0x32 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006122                _ZN6String12changeBufferEj
+                0x00005110       0x32 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005110                _ZN6String12changeBufferEj
  .text._ZN6String7reserveEj
-                0x00006154       0x36 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006154                _ZN6String7reserveEj
+                0x00005142       0x36 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005142                _ZN6String7reserveEj
  .text._ZN6String4copyEPKcj
-                0x0000618a       0x3c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000618a                _ZN6String4copyEPKcj
+                0x00005178       0x3c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005178                _ZN6String4copyEPKcj
  .text._ZN6StringC2EPKc
-                0x000061c6       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000061c6                _ZN6StringC2EPKc
-                0x000061c6                _ZN6StringC1EPKc
+                0x000051b4       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000051b4                _ZN6StringC2EPKc
+                0x000051b4                _ZN6StringC1EPKc
  .text._ZN6StringaSERKS_
-                0x000061ee       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000061ee                _ZN6StringaSERKS_
+                0x000051dc       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000051dc                _ZN6StringaSERKS_
  .text._ZN6StringC2ERKS_
-                0x00006218       0x10 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006218                _ZN6StringC2ERKS_
-                0x00006218                _ZN6StringC1ERKS_
+                0x00005206       0x10 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005206                _ZN6StringC2ERKS_
+                0x00005206                _ZN6StringC1ERKS_
  .text._ZN6StringaSEPKc
-                0x00006228       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006228                _ZN6StringaSEPKc
+                0x00005216       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005216                _ZN6StringaSEPKc
  .text._ZN6StringC2Eih
-                0x00006252       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006252                _ZN6StringC2Eih
-                0x00006252                _ZN6StringC1Eih
+                0x00005240       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005240                _ZN6StringC2Eih
+                0x00005240                _ZN6StringC1Eih
  .text._ZN6StringC2Elh
-                0x000062a6       0x56 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000062a6                _ZN6StringC2Elh
-                0x000062a6                _ZN6StringC1Elh
+                0x00005294       0x56 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005294                _ZN6StringC2Elh
+                0x00005294                _ZN6StringC1Elh
  .text._ZN6StringC2Efh
-                0x000062fc       0x5c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000062fc                _ZN6StringC2Efh
-                0x000062fc                _ZN6StringC1Efh
+                0x000052ea       0x5c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000052ea                _ZN6StringC2Efh
+                0x000052ea                _ZN6StringC1Efh
  .text._ZN6StringC2Edh
-                0x00006358       0x5c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006358                _ZN6StringC1Edh
-                0x00006358                _ZN6StringC2Edh
+                0x00005346       0x5c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005346                _ZN6StringC1Edh
+                0x00005346                _ZN6StringC2Edh
  .text._ZN6String6concatEPKcj
-                0x000063b4       0x58 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000063b4                _ZN6String6concatEPKcj
+                0x000053a2       0x58 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000053a2                _ZN6String6concatEPKcj
  .text._ZN6String6concatEPKc
-                0x0000640c       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000640c                _ZN6String6concatEPKc
+                0x000053fa       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000053fa                _ZN6String6concatEPKc
  .text._ZN6String6concatEc
-                0x00006428       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006428                _ZN6String6concatEc
+                0x00005416       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005416                _ZN6String6concatEc
  .text._ZplRK15StringSumHelperRK6String
-                0x0000644c       0x22 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000644c                _ZplRK15StringSumHelperRK6String
+                0x0000543a       0x22 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000543a                _ZplRK15StringSumHelperRK6String
  .text._ZplRK15StringSumHelperPKc
-                0x0000646e       0x2e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000646e                _ZplRK15StringSumHelperPKc
+                0x0000545c       0x2e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000545c                _ZplRK15StringSumHelperPKc
  .text._ZNK6String6equalsEPKc
-                0x0000649c       0x3c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000649c                _ZNK6String6equalsEPKc
+                0x0000548a       0x3c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000548a                _ZNK6String6equalsEPKc
  .text._ZNK6String10startsWithERKS_j
-                0x000064d8       0x4a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000064d8                _ZNK6String10startsWithERKS_j
+                0x000054c6       0x4a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000054c6                _ZNK6String10startsWithERKS_j
  .text._ZNK6String10startsWithERKS_
-                0x00006522       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006522                _ZNK6String10startsWithERKS_
+                0x00005510       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005510                _ZNK6String10startsWithERKS_
  .text._ZNK6StringixEj
-                0x0000653e       0x22 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000653e                _ZNK6StringixEj
+                0x0000552c       0x22 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000552c                _ZNK6StringixEj
  .text._ZNK6String6charAtEj
-                0x00006560        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006560                _ZNK6String6charAtEj
- .text._ZNK6String8getBytesEPhjj
-                0x00006562       0x5c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006562                _ZNK6String8getBytesEPhjj
+                0x0000554e        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000554e                _ZNK6String6charAtEj
  .text._ZNK6String9substringEjj
-                0x000065be       0x88 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000065be                _ZNK6String9substringEjj
+                0x00005550       0x88 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005550                _ZNK6String9substringEjj
  .text._ZN6String4trimEv
-                0x00006646       0xae C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006646                _ZN6String4trimEv
+                0x000055d8       0xae C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000055d8                _ZN6String4trimEv
  .text._ZNK6String5toIntEv
-                0x000066f4       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000066f4                _ZNK6String5toIntEv
+                0x00005686       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00005686                _ZNK6String5toIntEv
  .text._ZNK6String7toFloatEv
-                0x00006708       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00006708                _ZNK6String7toFloatEv
- .text.__empty  0x0000671c        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x0000671c                yield
+                0x0000569a       0x14 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000569a                _ZNK6String7toFloatEv
+ .text.__empty  0x000056ae        0x2 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x000056ae                yield
  .text.libgcc.div
-                0x0000671e       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
-                0x0000671e                __udivmodsi4
+                0x000056b0       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000056b0                __udivmodsi4
  .text.libgcc.div
-                0x00006762       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_divmodsi4.o)
-                0x00006762                __divmodsi4
+                0x000056f4       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_divmodsi4.o)
+                0x000056f4                __divmodsi4
  .text.libgcc.div
-                0x0000678a       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_negsi2.o)
-                0x0000678a                __negsi2
- .text.libgcc   0x0000679a        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
-                0x0000679a                __tablejump2__
+                0x0000571c       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_negsi2.o)
+                0x0000571c                __negsi2
+ .text.libgcc   0x0000572c        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+                0x0000572c                __tablejump2__
  .text.libgcc.mul
-                0x000067a6       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_muluhisi3.o)
-                0x000067a6                __muluhisi3
+                0x00005738       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_muluhisi3.o)
+                0x00005738                __muluhisi3
  .text.libgcc.prologue
-                0x000067ba       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
-                0x000067ba                __prologue_saves__
+                0x0000574c       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+                0x0000574c                __prologue_saves__
  .text.libgcc.prologue
-                0x000067f2       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
-                0x000067f2                __epilogue_restores__
+                0x00005784       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+                0x00005784                __epilogue_restores__
  .text.libgcc.mul
-                0x00006828       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_umulhisi3.o)
-                0x00006828                __umulhisi3
+                0x000057ba       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_umulhisi3.o)
+                0x000057ba                __umulhisi3
  .text.avr-libc
-                0x00006846       0x3e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(dtostrf.o)
-                0x00006846                dtostrf
+                0x000057d8       0x3e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                0x000057d8                dtostrf
  .text.avr-libc
-                0x00006884      0x25a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00006884                malloc
-                0x000069ae                free
+                0x00005816      0x25a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00005816                malloc
+                0x00005940                free
  .text.avr-libc
-                0x00006ade      0x186 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o)
-                0x00006ade                realloc
+                0x00005a70      0x186 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x00005a70                realloc
  .text.avr-libc
-                0x00006c64      0x2ac c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strtod.o)
-                0x00006c64                strtod
+                0x00005bf6      0x2ac c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strtod.o)
+                0x00005bf6                strtod
  .text.avr-libc
-                0x00006f10        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
-                0x00006f10                abort
+                0x00005ea2        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(abort.o)
+                0x00005ea2                abort
  .text.avr-libc
-                0x00006f18        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(atof.o)
-                0x00006f18                atof
+                0x00005eaa        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(atof.o)
+                0x00005eaa                atof
  .text.avr-libc
-                0x00006f1e       0x4c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(atol.o)
-                0x00006f1e                atol
+                0x00005eb0       0x4c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(atol.o)
+                0x00005eb0                atol
  .text.avr-libc
-                0x00006f6a       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(isspace.o)
-                0x00006f6a                isspace
+                0x00005efc       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(isspace.o)
+                0x00005efc                isspace
  .text.avr-libc
-                0x00006f7a       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
-                0x00006f7a                strncasecmp_P
+                0x00005f0c       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncasecmp_P.o)
+                0x00005f0c                strncasecmp_P
  .text.avr-libc
-                0x00006faa       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x00006faa                memcpy
+                0x00005f3c       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00005f3c                memcpy
  .text.avr-libc
-                0x00006fbc       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
-                0x00006fbc                strcmp
+                0x00005f4e       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcmp.o)
+                0x00005f4e                strcmp
  .text.avr-libc
-                0x00006fce        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                0x00006fce                strcpy
+                0x00005f60        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00005f60                strcpy
  .text.avr-libc
-                0x00006fdc       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncmp.o)
-                0x00006fdc                strncmp
+                0x00005f6e       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncmp.o)
+                0x00005f6e                strncmp
  .text.avr-libc
-                0x00006ff8       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strncpy.o)
-                0x00006ff8                strncpy
+                0x00005f8a       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x00005f8a                __itoa
+                0x00005f8a                itoa
  .text.avr-libc
-                0x00007016       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(itoa.o)
-                0x00007016                __itoa
-                0x00007016                itoa
+                0x00005f9e       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                0x00005f9e                __itoa_ncheck
  .text.avr-libc
-                0x0000702a       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
-                0x0000702a                __itoa_ncheck
+                0x00005fb2       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                0x00005fb2                ltoa
+                0x00005fb2                __ltoa
  .text.avr-libc
-                0x0000703e       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
-                0x0000703e                ltoa
-                0x0000703e                __ltoa
+                0x00005fc6       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
+                0x00005fc6                __ltoa_ncheck
  .text.avr-libc
-                0x00007052       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ltoa_ncheck.o)
-                0x00007052                __ltoa_ncheck
+                0x00005fe2       0x2a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(mulsi10.o)
+                0x00005fe2                __mulsi_const_10
  .text.avr-libc
-                0x0000706e       0x2a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(mulsi10.o)
-                0x0000706e                __mulsi_const_10
+                0x0000600c       0x42 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
+                0x0000600c                __ultoa_ncheck
+                0x0000600e                __ultoa_common
  .text.avr-libc
-                0x00007098       0x42 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ultoa_ncheck.o)
-                0x00007098                __ultoa_ncheck
-                0x0000709a                __ultoa_common
+                0x0000604e       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                0x0000604e                __utoa_ncheck
+                0x00006050                __utoa_common
  .text.avr-libc
-                0x000070da       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
-                0x000070da                __utoa_ncheck
-                0x000070dc                __utoa_common
+                0x00006080      0x31a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                0x00006080                dtoa_prf
  .text.avr-libc
-                0x0000710c      0x31a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
-                0x0000710c                dtoa_prf
+                0x0000639a      0x1b0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x0000639a                __ftoa_engine
  .text.avr-libc
-                0x00007426      0x1b0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
-                0x00007426                __ftoa_engine
+                0x0000654a        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
+                0x0000654a                __ctype_isfalse
+                0x0000654e                __ctype_istrue
  .text.avr-libc
-                0x000075d6        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(cty_isfalse.o)
-                0x000075d6                __ctype_isfalse
-                0x000075da                __ctype_istrue
+                0x00006550       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00006550                strrev
  .text.avr-libc
-                0x000075dc       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrev.o)
-                0x000075dc                strrev
+                0x00006570       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
+                0x00006570                eeprom_read_byte
  .text.avr-libc
-                0x000075fc       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5\libatmega328p.a(eerd_byte.o)
-                0x000075fc                eeprom_read_byte
- .text.avr-libc
-                0x0000760c       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
-                0x0000760c                eeprom_write_byte
-                0x0000760e                eeprom_write_r18
-                0x00007628                . = ALIGN (0x2)
+                0x00006580       0x1c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.0.106/gcc/dev/atmega328p/avr5\libatmega328p.a(eewr_byte.o)
+                0x00006580                eeprom_write_byte
+                0x00006582                eeprom_write_r18
+                0x0000659c                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00007628        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
-                0x00007628                _exit
-                0x00007628                exit
+ .fini9         0x0000659c        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                0x0000659c                _exit
+                0x0000659c                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00007628       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_dtors.o)
-                0x00007628                __do_global_dtors
+ .fini6         0x0000659c       0x14 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_dtors.o)
+                0x0000659c                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -4886,11 +4797,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000763c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .fini0         0x000065b0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00007640                _etext = .
+                0x000065b4                _etext = .
 
-.data           0x00800100       0xe0 load address 0x00007640
+.data           0x00800100       0xd8 load address 0x000065b4
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
@@ -4900,243 +4811,241 @@ END GROUP
  *(.data*)
  .data._ZL14_responseIndex
                 0x00800106        0x2 EALLib/WaterSensorWire.o
- .data._ZL16_sensorReadInter
-                0x00800108        0x2 EALLib/WaterSensorWire.o
- .data._ZL14_sensorReadDur
-                0x0080010a        0x2 EALLib/WaterSensorWire.o
- .data._ZL8_reading
-                0x0080010c        0x2 EALLib/WaterSensorWire.o
  .data._ZN7Globals12_phSensorPinE
-                0x0080010e        0x2 EALLib/_globalsWaterSensors.o
-                0x0080010e                _ZN7Globals12_phSensorPinE
+                0x00800108        0x2 EALLib/_globalsWaterSensors.o
+                0x00800108                _ZN7Globals12_phSensorPinE
  .data._ZN7Globals13_tdsSensorPinE
-                0x00800110        0x2 EALLib/_globalsWaterSensors.o
-                0x00800110                _ZN7Globals13_tdsSensorPinE
+                0x0080010a        0x2 EALLib/_globalsWaterSensors.o
+                0x0080010a                _ZN7Globals13_tdsSensorPinE
  .data._ZN7Globals11_phRelayPinE
-                0x00800112        0x2 EALLib/_globalsWaterSensors.o
-                0x00800112                _ZN7Globals11_phRelayPinE
+                0x0080010c        0x2 EALLib/_globalsWaterSensors.o
+                0x0080010c                _ZN7Globals11_phRelayPinE
  .data._ZN7Globals12_tdsRelayPinE
-                0x00800114        0x2 EALLib/_globalsWaterSensors.o
-                0x00800114                _ZN7Globals12_tdsRelayPinE
+                0x0080010e        0x2 EALLib/_globalsWaterSensors.o
+                0x0080010e                _ZN7Globals12_tdsRelayPinE
  .data._ZN7Globals18SensorReadIntervalE
-                0x00800116        0x4 EALLib/_globalsWaterSensors.o
-                0x00800116                _ZN7Globals18SensorReadIntervalE
+                0x00800110        0x4 EALLib/_globalsWaterSensors.o
+                0x00800110                _ZN7Globals18SensorReadIntervalE
  .data.analog_reference
-                0x0080011a        0x1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
-                0x0080011a                analog_reference
+                0x00800114        0x1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00800114                analog_reference
  *(.rodata)
- .rodata        0x0080011b        0xa EALLib/LCDBase.o
- .rodata        0x00800125        0xb EALLib/PHSensor.o
- .rodata        0x00800130        0xc EALLib/TDSSensor.o
- .rodata        0x0080013c       0x2d EALLib/WaterSensorWire.o
+ .rodata        0x00800115        0xa EALLib/LCDBase.o
+ .rodata        0x0080011f        0xa EALLib/PHSensor.o
+ .rodata        0x00800129        0xb EALLib/TDSSensor.o
+ .rodata        0x00800134       0x2d EALLib/WaterSensorWire.o
  *(.rodata*)
  .rodata._ZTV7TwoWire
-                0x00800169       0x10 ArduinoLibs/Wire/Wire.o
-                0x00800169                _ZTV7TwoWire
+                0x00800161       0x10 ArduinoLibs/Wire/Wire.o
+                0x00800161                _ZTV7TwoWire
  .rodata._ZTV6Stream
-                0x00800179       0x10 ArduinoLibs/Wire/Wire.o
-                0x00800179                _ZTV6Stream
+                0x00800171       0x10 ArduinoLibs/Wire/Wire.o
+                0x00800171                _ZTV6Stream
  .rodata._ZTV13LiquidCrystal
-                0x00800189        0x8 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
-                0x00800189                _ZTV13LiquidCrystal
+                0x00800181        0x8 ArduinoLibs/LiquidCrystal/LiquidCrystal.o
+                0x00800181                _ZTV13LiquidCrystal
  .rodata._ZTV11SimpleTimer
-                0x00800191       0x16 ArduinoLibs/SimpleTimer/SimpleTimer.o
-                0x00800191                _ZTV11SimpleTimer
+                0x00800189       0x16 ArduinoLibs/SimpleTimer/SimpleTimer.o
+                0x00800189                _ZTV11SimpleTimer
  .rodata._ZTV7LCDBase
-                0x008001a7        0x8 EALLib/LCDBase.o
-                0x008001a7                _ZTV7LCDBase
+                0x0080019f        0x8 EALLib/LCDBase.o
+                0x0080019f                _ZTV7LCDBase
  .rodata._ZN6Memory13TheSensorsMemE
-                0x008001af        0x2 EALLib/SensorsMem.o
-                0x008001af                _ZN6Memory13TheSensorsMemE
+                0x008001a7        0x2 EALLib/SensorsMem.o
+                0x008001a7                _ZN6Memory13TheSensorsMemE
  .rodata._ZN7Globals6TheLCDE
-                0x008001b1        0x2 EALLib/_globalsWaterSensors.o
-                0x008001b1                _ZN7Globals6TheLCDE
+                0x008001a9        0x2 EALLib/_globalsWaterSensors.o
+                0x008001a9                _ZN7Globals6TheLCDE
  .rodata._ZN7Globals11ThePHSensorE
-                0x008001b3        0x2 EALLib/_globalsWaterSensors.o
-                0x008001b3                _ZN7Globals11ThePHSensorE
+                0x008001ab        0x2 EALLib/_globalsWaterSensors.o
+                0x008001ab                _ZN7Globals11ThePHSensorE
  .rodata._ZN7Globals12TheTDSSensorE
-                0x008001b5        0x2 EALLib/_globalsWaterSensors.o
-                0x008001b5                _ZN7Globals12TheTDSSensorE
+                0x008001ad        0x2 EALLib/_globalsWaterSensors.o
+                0x008001ad                _ZN7Globals12TheTDSSensorE
  .rodata._ZTV14HardwareSerial
-                0x008001b7       0x10 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x008001b7                _ZTV14HardwareSerial
+                0x008001af       0x10 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x008001af                _ZTV14HardwareSerial
  .rodata.str1.1
-                0x008001c7       0x11 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x008001bf       0x11 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
-                0x008001d8        0x8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x008001d8                _ZTV5Print
+                0x008001d0        0x8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x008001d0                _ZTV5Print
  .rodata.str1.1
-                0x008001e0       0x11 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x008001d8       0x11 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                                   0x1 (size before relaxing)
  *(.gnu.linkonce.d*)
-                0x008001f2                . = ALIGN (0x2)
-                0x008001f2                _edata = .
-                0x008001f2                PROVIDE (__data_end, .)
+                0x008001ea                . = ALIGN (0x2)
+                0x008001ea                _edata = .
+                0x008001ea                PROVIDE (__data_end, .)
 
-.bss            0x008001e0      0x422
-                0x008001e0                PROVIDE (__bss_start, .)
+.bss            0x008001d8      0x3e9
+                0x008001d8                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.twi_error
-                0x008001e0        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x008001d8        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_rxBufferIndex
-                0x008001e1        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x008001d9        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_rxBuffer
-                0x008001e2       0x20 ArduinoLibs/Wire/utility/twi.o
+                0x008001da       0x20 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_txBufferLength
-                0x00800202        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x008001fa        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_txBufferIndex
-                0x00800203        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x008001fb        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_txBuffer
-                0x00800204       0x20 ArduinoLibs/Wire/utility/twi.o
+                0x008001fc       0x20 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_masterBufferLength
-                0x00800224        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x0080021c        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_masterBufferIndex
-                0x00800225        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x0080021d        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_masterBuffer
-                0x00800226       0x20 ArduinoLibs/Wire/utility/twi.o
+                0x0080021e       0x20 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_onSlaveReceive
-                0x00800246        0x2 ArduinoLibs/Wire/utility/twi.o
+                0x0080023e        0x2 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_onSlaveTransmit
-                0x00800248        0x2 ArduinoLibs/Wire/utility/twi.o
+                0x00800240        0x2 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_inRepStart
-                0x0080024a        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x00800242        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_sendStop
-                0x0080024b        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x00800243        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_slarw
-                0x0080024c        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x00800244        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss.twi_state
-                0x0080024d        0x1 ArduinoLibs/Wire/utility/twi.o
+                0x00800245        0x1 ArduinoLibs/Wire/utility/twi.o
  .bss._ZN7TwoWire8rxBufferE
-                0x0080024e       0x20 ArduinoLibs/Wire/Wire.o
-                0x0080024e                _ZN7TwoWire8rxBufferE
+                0x00800246       0x20 ArduinoLibs/Wire/Wire.o
+                0x00800246                _ZN7TwoWire8rxBufferE
  .bss._ZN7TwoWire13rxBufferIndexE
-                0x0080026e        0x1 ArduinoLibs/Wire/Wire.o
-                0x0080026e                _ZN7TwoWire13rxBufferIndexE
+                0x00800266        0x1 ArduinoLibs/Wire/Wire.o
+                0x00800266                _ZN7TwoWire13rxBufferIndexE
  .bss._ZN7TwoWire14rxBufferLengthE
-                0x0080026f        0x1 ArduinoLibs/Wire/Wire.o
-                0x0080026f                _ZN7TwoWire14rxBufferLengthE
+                0x00800267        0x1 ArduinoLibs/Wire/Wire.o
+                0x00800267                _ZN7TwoWire14rxBufferLengthE
  .bss._ZN7TwoWire8txBufferE
-                0x00800270       0x20 ArduinoLibs/Wire/Wire.o
-                0x00800270                _ZN7TwoWire8txBufferE
+                0x00800268       0x20 ArduinoLibs/Wire/Wire.o
+                0x00800268                _ZN7TwoWire8txBufferE
  .bss._ZN7TwoWire13txBufferIndexE
-                0x00800290        0x1 ArduinoLibs/Wire/Wire.o
-                0x00800290                _ZN7TwoWire13txBufferIndexE
+                0x00800288        0x1 ArduinoLibs/Wire/Wire.o
+                0x00800288                _ZN7TwoWire13txBufferIndexE
  .bss._ZN7TwoWire14txBufferLengthE
-                0x00800291        0x1 ArduinoLibs/Wire/Wire.o
-                0x00800291                _ZN7TwoWire14txBufferLengthE
+                0x00800289        0x1 ArduinoLibs/Wire/Wire.o
+                0x00800289                _ZN7TwoWire14txBufferLengthE
  .bss._ZN7TwoWire12transmittingE
-                0x00800292        0x1 ArduinoLibs/Wire/Wire.o
-                0x00800292                _ZN7TwoWire12transmittingE
+                0x0080028a        0x1 ArduinoLibs/Wire/Wire.o
+                0x0080028a                _ZN7TwoWire12transmittingE
  .bss._ZN7TwoWire14user_onRequestE
-                0x00800293        0x2 ArduinoLibs/Wire/Wire.o
-                0x00800293                _ZN7TwoWire14user_onRequestE
+                0x0080028b        0x2 ArduinoLibs/Wire/Wire.o
+                0x0080028b                _ZN7TwoWire14user_onRequestE
  .bss._ZN7TwoWire14user_onReceiveE
-                0x00800295        0x2 ArduinoLibs/Wire/Wire.o
-                0x00800295                _ZN7TwoWire14user_onReceiveE
- .bss.Wire      0x00800297        0xc ArduinoLibs/Wire/Wire.o
-                0x00800297                Wire
+                0x0080028d        0x2 ArduinoLibs/Wire/Wire.o
+                0x0080028d                _ZN7TwoWire14user_onReceiveE
+ .bss.Wire      0x0080028f        0xc ArduinoLibs/Wire/Wire.o
+                0x0080028f                Wire
  .bss._ZN14SoftwareSerial13active_objectE
-                0x008002a3        0x2 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x008002a3                _ZN14SoftwareSerial13active_objectE
+                0x0080029b        0x2 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x0080029b                _ZN14SoftwareSerial13active_objectE
  .bss._ZN14SoftwareSerial15_receive_bufferE
-                0x008002a5       0x40 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x008002a5                _ZN14SoftwareSerial15_receive_bufferE
+                0x0080029d       0x40 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x0080029d                _ZN14SoftwareSerial15_receive_bufferE
  .bss._ZN14SoftwareSerial20_receive_buffer_tailE
-                0x008002e5        0x1 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x008002e5                _ZN14SoftwareSerial20_receive_buffer_tailE
+                0x008002dd        0x1 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x008002dd                _ZN14SoftwareSerial20_receive_buffer_tailE
  .bss._ZN14SoftwareSerial20_receive_buffer_headE
-                0x008002e6        0x1 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
-                0x008002e6                _ZN14SoftwareSerial20_receive_buffer_headE
+                0x008002de        0x1 ArduinoLibs/SoftwareSerial/SoftwareSerial.o
+                0x008002de                _ZN14SoftwareSerial20_receive_buffer_headE
  .bss._ZGVZN4erom6Access8instanceEvE6access
-                0x008002e7        0x8 ArduinoLibs/erom/erom.o
-                0x008002e7                _ZGVZN4erom6Access8instanceEvE6access
+                0x008002df        0x8 ArduinoLibs/erom/erom.o
+                0x008002df                _ZGVZN4erom6Access8instanceEvE6access
  .bss._ZN4erom6accessE
-                0x008002ef        0x2 ArduinoLibs/erom/erom.o
-                0x008002ef                _ZN4erom6accessE
+                0x008002e7        0x2 ArduinoLibs/erom/erom.o
+                0x008002e7                _ZN4erom6accessE
  .bss._ZZN4erom6Access8instanceEvE6access
-                0x008002f1        0x4 ArduinoLibs/erom/erom.o
-                0x008002f1                _ZZN4erom6Access8instanceEvE6access
+                0x008002e9        0x4 ArduinoLibs/erom/erom.o
+                0x008002e9                _ZZN4erom6Access8instanceEvE6access
  .bss._ZL6EEPROM
-                0x008002f5        0x1 EALLib/PHSensor.o
- .bss._ZGVZN8PHSensor11CalculatePHEvE12samplingTime
-                0x008002f6        0x8 EALLib/PHSensor.o
+                0x008002ed        0x1 EALLib/PHSensor.o
  .bss._ZGVZN8PHSensor10getPHValueEvE12samplingTime
-                0x008002fe        0x8 EALLib/PHSensor.o
+                0x008002ee        0x8 EALLib/PHSensor.o
  .bss._ZGVZN8PHSensor12PrintPHToLCDEvE9printTime
-                0x00800306        0x8 EALLib/PHSensor.o
- .bss._ZZN8PHSensor11CalculatePHEvE12samplingTime
-                0x0080030e        0x4 EALLib/PHSensor.o
+                0x008002f6        0x8 EALLib/PHSensor.o
  .bss._ZZN8PHSensor10getPHValueEvE12samplingTime
-                0x00800312        0x4 EALLib/PHSensor.o
+                0x008002fe        0x4 EALLib/PHSensor.o
  .bss._ZZN8PHSensor12PrintPHToLCDEvE9printTime
-                0x00800316        0x4 EALLib/PHSensor.o
+                0x00800302        0x4 EALLib/PHSensor.o
  .bss._ZGVZN9TDSSensor13PrintTDSToLCDEvE9printTime
-                0x0080031a        0x8 EALLib/TDSSensor.o
- .bss._ZGVZN9TDSSensor12CalculateTDSEvE12samplingTime
-                0x00800322        0x8 EALLib/TDSSensor.o
+                0x00800306        0x8 EALLib/TDSSensor.o
  .bss._ZGVZN9TDSSensor11getTDSValueEvE12samplingTime
-                0x0080032a        0x8 EALLib/TDSSensor.o
+                0x0080030e        0x8 EALLib/TDSSensor.o
  .bss._ZZN9TDSSensor13PrintTDSToLCDEvE9printTime
-                0x00800332        0x4 EALLib/TDSSensor.o
- .bss._ZZN9TDSSensor12CalculateTDSEvE12samplingTime
-                0x00800336        0x4 EALLib/TDSSensor.o
+                0x00800316        0x4 EALLib/TDSSensor.o
  .bss._ZZN9TDSSensor11getTDSValueEvE12samplingTime
-                0x0080033a        0x4 EALLib/TDSSensor.o
+                0x0080031a        0x4 EALLib/TDSSensor.o
  .bss._ZL12_wireRequest
-                0x0080033e        0x6 EALLib/WaterSensorWire.o
+                0x0080031e        0x6 EALLib/WaterSensorWire.o
  .bss._ZL13_wireResponse
-                0x00800344        0x6 EALLib/WaterSensorWire.o
- .bss._ZL4_cmd  0x0080034a        0x6 EALLib/WaterSensorWire.o
+                0x00800324        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL4_cmd  0x0080032a        0x6 EALLib/WaterSensorWire.o
  .bss._ZL8_cmdData
-                0x00800350        0x6 EALLib/WaterSensorWire.o
+                0x00800330        0x6 EALLib/WaterSensorWire.o
  .bss._ZL9_response
-                0x00800356        0x6 EALLib/WaterSensorWire.o
+                0x00800336        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL3_ph   0x0080033c        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL4_tds  0x00800342        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL16_sensorReadInter
+                0x00800348        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL14_sensorReadDur
+                0x0080034e        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL8_reading
+                0x00800354        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL9_phOffset
+                0x0080035a        0x6 EALLib/WaterSensorWire.o
+ .bss._ZL10_tdsOffset
+                0x00800360        0x6 EALLib/WaterSensorWire.o
  .bss._ZN7Globals10ReadingTDSE
-                0x0080035c        0x1 EALLib/_globalsWaterSensors.o
-                0x0080035c                _ZN7Globals10ReadingTDSE
+                0x00800366        0x1 EALLib/_globalsWaterSensors.o
+                0x00800366                _ZN7Globals10ReadingTDSE
  .bss._ZN7Globals18SensorReadDurationE
-                0x0080035d        0x4 EALLib/_globalsWaterSensors.o
-                0x0080035d                _ZN7Globals18SensorReadDurationE
+                0x00800367        0x4 EALLib/_globalsWaterSensors.o
+                0x00800367                _ZN7Globals18SensorReadDurationE
  .bss._ZN7GlobalsL7_theLCDE
-                0x00800361       0x24 EALLib/_globalsWaterSensors.o
+                0x0080036b       0x24 EALLib/_globalsWaterSensors.o
  .bss._ZN7GlobalsL12_thePHSensorE
-                0x00800385       0x91 EALLib/_globalsWaterSensors.o
+                0x0080038f       0x7c EALLib/_globalsWaterSensors.o
  .bss._ZN7GlobalsL13_theTDSSensorE
-                0x00800416       0x86 EALLib/_globalsWaterSensors.o
+                0x0080040b       0x50 EALLib/_globalsWaterSensors.o
  .bss._asyncTimer
-                0x0080049c       0xae Sketch.o
-                0x0080049c                _asyncTimer
+                0x0080045b       0xae Sketch.o
+                0x0080045b                _asyncTimer
  .bss._ZGVZ11AsyncDoWorkvE18lastSensorReadTime
-                0x0080054a        0x8 Sketch.o
+                0x00800509        0x8 Sketch.o
  .bss._ZZ11AsyncDoWorkvE18lastSensorReadTime
-                0x00800552        0x4 Sketch.o
- .bss.Serial    0x00800556       0x9d C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00800556                Serial
+                0x00800511        0x4 Sketch.o
+ .bss.Serial    0x00800515       0x9d C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800515                Serial
  .bss.timer0_fract
-                0x008005f3        0x1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008005b2        0x1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x008005f4        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008005f4                timer0_millis
+                0x008005b3        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008005b3                timer0_millis
  .bss.timer0_overflow_count
-                0x008005f8        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008005f8                timer0_overflow_count
+                0x008005b7        0x4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008005b7                timer0_overflow_count
  *(COMMON)
- COMMON         0x008005fc        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x008005fc                __brkval
-                0x008005fe                __flp
- COMMON         0x00800600        0x2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(errno.o)
-                0x00800600                errno
-                0x00800602                PROVIDE (__bss_end, .)
-                0x00007640                __data_load_start = LOADADDR (.data)
-                0x00007720                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008005bb        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x008005bb                __brkval
+                0x008005bd                __flp
+ COMMON         0x008005bf        0x2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(errno.o)
+                0x008005bf                errno
+                0x008005c1                PROVIDE (__bss_end, .)
+                0x000065b4                __data_load_start = LOADADDR (.data)
+                0x0000668c                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800602        0x0
+.noinit         0x008005c1        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800602                _end = .
-                0x00800602                PROVIDE (__heap_start, .)
+                0x008005c1                _end = .
+                0x008005c1                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x6
  *(.eeprom*)
@@ -5197,7 +5106,6 @@ END GROUP
  .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
  .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .comment       0x00000030       0x31 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
@@ -5232,7 +5140,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000     0x1110
+.debug_aranges  0x00000000     0x1028
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x70 ArduinoLibs/Wire/utility/twi.o
@@ -5251,44 +5159,42 @@ END GROUP
  .debug_aranges
                 0x00000668       0xf0 EALLib/MathExt.o
  .debug_aranges
-                0x00000758      0x190 EALLib/PHSensor.o
+                0x00000758      0x108 EALLib/PHSensor.o
  .debug_aranges
-                0x000008e8       0x18 EALLib/SensorsMem.o
+                0x00000860       0x18 EALLib/SensorsMem.o
  .debug_aranges
-                0x00000900       0xf8 EALLib/TDSSensor.o
+                0x00000878       0xf8 EALLib/TDSSensor.o
  .debug_aranges
-                0x000009f8       0xa8 EALLib/WaterSensorWire.o
+                0x00000970       0xa0 EALLib/WaterSensorWire.o
  .debug_aranges
-                0x00000aa0       0x80 EALLib/_globalsWaterSensors.o
+                0x00000a10       0x60 EALLib/_globalsWaterSensors.o
  .debug_aranges
-                0x00000b20       0x50 Sketch.o
+                0x00000a70       0x50 Sketch.o
  .debug_aranges
-                0x00000b70       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00000ac0       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
  .debug_aranges
-                0x00000b98       0x68 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000ae8       0x68 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x00000c00       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000b50       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .debug_aranges
-                0x00000c38       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000b88       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
  .debug_aranges
-                0x00000c70       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
+                0x00000bc0       0xf0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .debug_aranges
-                0x00000ca8       0xf0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000cb0       0x48 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .debug_aranges
-                0x00000d98       0x48 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000cf8       0x30 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
  .debug_aranges
-                0x00000de0       0x30 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00000d28       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .debug_aranges
-                0x00000e10       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00000d60      0x2a8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .debug_aranges
-                0x00000e48      0x2a8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_aranges
-                0x000010f0       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00001008       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x2b253
+.debug_info     0x00000000    0x286e7
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x6b5 ArduinoLibs/Wire/utility/twi.o
  .debug_info    0x000006b5     0x223d ArduinoLibs/Wire/Wire.o
@@ -5298,25 +5204,24 @@ END GROUP
  .debug_info    0x0000892c      0x915 ArduinoLibs/SimpleTimer/SimpleTimer.o
  .debug_info    0x00009241     0x19e4 EALLib/LCDBase.o
  .debug_info    0x0000ac25     0x1b9d EALLib/MathExt.o
- .debug_info    0x0000c7c2     0x473b EALLib/PHSensor.o
- .debug_info    0x00010efd     0x1b12 EALLib/SensorsMem.o
- .debug_info    0x00012a0f     0x36ee EALLib/TDSSensor.o
- .debug_info    0x000160fd     0x3921 EALLib/WaterSensorWire.o
- .debug_info    0x00019a1e     0x36f6 EALLib/_globalsWaterSensors.o
- .debug_info    0x0001d114     0x2bf5 Sketch.o
- .debug_info    0x0001fd09       0x8e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_info    0x0001fd97     0x1dd1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x00021b68     0x19ca C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x00023532      0x231 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00023763      0x18c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_info    0x000238ef     0x297b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x0002626a      0x2c8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x00026532      0x281 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_info    0x000267b3      0x5f9 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x00026dac     0x4469 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_info    0x0002b215       0x3e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_info    0x0000c7c2     0x3822 EALLib/PHSensor.o
+ .debug_info    0x0000ffe4     0x1b12 EALLib/SensorsMem.o
+ .debug_info    0x00011af6     0x36f1 EALLib/TDSSensor.o
+ .debug_info    0x000151e7     0x307b EALLib/WaterSensorWire.o
+ .debug_info    0x00018262     0x2d4e EALLib/_globalsWaterSensors.o
+ .debug_info    0x0001afb0     0x2379 Sketch.o
+ .debug_info    0x0001d329       0x8e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_info    0x0001d3b7     0x1dd1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x0001f188     0x19ca C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00020b52      0x231 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00020d83     0x297b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x000236fe      0x2c8 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x000239c6      0x281 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_info    0x00023c47      0x5f9 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x00024240     0x4469 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_info    0x000286a9       0x3e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
-.debug_abbrev   0x00000000     0x548f
+.debug_abbrev   0x00000000     0x50e9
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x254 ArduinoLibs/Wire/utility/twi.o
  .debug_abbrev  0x00000254      0x43a ArduinoLibs/Wire/Wire.o
@@ -5326,25 +5231,24 @@ END GROUP
  .debug_abbrev  0x0000128d      0x2bb ArduinoLibs/SimpleTimer/SimpleTimer.o
  .debug_abbrev  0x00001548      0x3ec EALLib/LCDBase.o
  .debug_abbrev  0x00001934      0x511 EALLib/MathExt.o
- .debug_abbrev  0x00001e45      0x608 EALLib/PHSensor.o
- .debug_abbrev  0x0000244d      0x2e7 EALLib/SensorsMem.o
- .debug_abbrev  0x00002734      0x4d6 EALLib/TDSSensor.o
- .debug_abbrev  0x00002c0a      0x5af EALLib/WaterSensorWire.o
- .debug_abbrev  0x000031b9      0x594 EALLib/_globalsWaterSensors.o
- .debug_abbrev  0x0000374d      0x534 Sketch.o
- .debug_abbrev  0x00003c81       0x5e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_abbrev  0x00003cdf      0x478 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00004157      0x3b1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x00004508      0x109 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00004611       0xd9 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_abbrev  0x000046ea      0x487 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00004b71      0x145 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x00004cb6      0x184 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_abbrev  0x00004e3a      0x15b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x00004f95      0x4d0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_abbrev  0x00005465       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_abbrev  0x00001e45      0x50a EALLib/PHSensor.o
+ .debug_abbrev  0x0000234f      0x2e7 EALLib/SensorsMem.o
+ .debug_abbrev  0x00002636      0x4e7 EALLib/TDSSensor.o
+ .debug_abbrev  0x00002b1d      0x532 EALLib/WaterSensorWire.o
+ .debug_abbrev  0x0000304f      0x4a8 EALLib/_globalsWaterSensors.o
+ .debug_abbrev  0x000034f7      0x4bd Sketch.o
+ .debug_abbrev  0x000039b4       0x5e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_abbrev  0x00003a12      0x478 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00003e8a      0x3b1 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x0000423b      0x109 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00004344      0x487 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x000047cb      0x145 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00004910      0x184 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_abbrev  0x00004a94      0x15b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x00004bef      0x4d0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_abbrev  0x000050bf       0x2a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
-.debug_line     0x00000000     0xbb14
+.debug_line     0x00000000     0xb4ff
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x851 ArduinoLibs/Wire/utility/twi.o
  .debug_line    0x00000851      0x835 ArduinoLibs/Wire/Wire.o
@@ -5354,25 +5258,24 @@ END GROUP
  .debug_line    0x000036aa      0x7be ArduinoLibs/SimpleTimer/SimpleTimer.o
  .debug_line    0x00003e68      0x721 EALLib/LCDBase.o
  .debug_line    0x00004589      0xaec EALLib/MathExt.o
- .debug_line    0x00005075      0xfa5 EALLib/PHSensor.o
- .debug_line    0x0000601a      0x60f EALLib/SensorsMem.o
- .debug_line    0x00006629      0xb51 EALLib/TDSSensor.o
- .debug_line    0x0000717a      0xdc2 EALLib/WaterSensorWire.o
- .debug_line    0x00007f3c      0x8a9 EALLib/_globalsWaterSensors.o
- .debug_line    0x000087e5      0x8fd Sketch.o
- .debug_line    0x000090e2       0xbf C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_line    0x000091a1      0x426 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x000095c7      0x257 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_line    0x0000981e      0x175 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00009993      0x15b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_line    0x00009aee      0x63e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x0000a12c      0x299 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x0000a3c5      0x20f C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_line    0x0000a5d4      0x252 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x0000a826     0x12ad C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_line    0x0000bad3       0x41 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_line    0x00005075      0xb88 EALLib/PHSensor.o
+ .debug_line    0x00005bfd      0x60f EALLib/SensorsMem.o
+ .debug_line    0x0000620c      0xb08 EALLib/TDSSensor.o
+ .debug_line    0x00006d14      0xe03 EALLib/WaterSensorWire.o
+ .debug_line    0x00007b17      0x814 EALLib/_globalsWaterSensors.o
+ .debug_line    0x0000832b      0x8fd Sketch.o
+ .debug_line    0x00008c28       0xbf C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_line    0x00008ce7      0x426 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x0000910d      0x257 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x00009364      0x175 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x000094d9      0x63e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00009b17      0x299 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00009db0      0x20f C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_line    0x00009fbf      0x252 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x0000a211     0x12ad C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_line    0x0000b4be       0x41 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
-.debug_frame    0x00000000     0x33e4
+.debug_frame    0x00000000     0x3160
  *(.debug_frame)
  .debug_frame   0x00000000      0x114 ArduinoLibs/Wire/utility/twi.o
  .debug_frame   0x00000114      0x2c8 ArduinoLibs/Wire/Wire.o
@@ -5382,24 +5285,23 @@ END GROUP
  .debug_frame   0x000010ec      0x180 ArduinoLibs/SimpleTimer/SimpleTimer.o
  .debug_frame   0x0000126c       0xd4 EALLib/LCDBase.o
  .debug_frame   0x00001340      0x2f8 EALLib/MathExt.o
- .debug_frame   0x00001638      0x4a4 EALLib/PHSensor.o
- .debug_frame   0x00001adc      0x2dc EALLib/TDSSensor.o
- .debug_frame   0x00001db8      0x1cc EALLib/WaterSensorWire.o
- .debug_frame   0x00001f84      0x154 EALLib/_globalsWaterSensors.o
- .debug_frame   0x000020d8       0xc4 Sketch.o
- .debug_frame   0x0000219c       0x34 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_frame   0x000021d0      0x110 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x000022e0       0xc0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_frame   0x000023a0       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x000023f4       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_frame   0x00002448      0x39c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x000027e4       0xc4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x000028a8       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_frame   0x000028fc       0x7c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_frame   0x00002978      0xa48 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_frame   0x000033c0       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_frame   0x00001638      0x2fc EALLib/PHSensor.o
+ .debug_frame   0x00001934      0x2cc EALLib/TDSSensor.o
+ .debug_frame   0x00001c00      0x1b4 EALLib/WaterSensorWire.o
+ .debug_frame   0x00001db4       0xf4 EALLib/_globalsWaterSensors.o
+ .debug_frame   0x00001ea8       0xc4 Sketch.o
+ .debug_frame   0x00001f6c       0x34 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_frame   0x00001fa0      0x110 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x000020b0       0xc0 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x00002170       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000021c4      0x39c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00002560       0xc4 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00002624       0x54 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_frame   0x00002678       0x7c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x000026f4      0xa48 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_frame   0x0000313c       0x24 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
-.debug_str      0x00000000    0x13794
+.debug_str      0x00000000    0x13628
  *(.debug_str)
  .debug_str     0x00000000     0xae2c ArduinoLibs/Wire/utility/twi.o
                                0xaf64 (size before relaxing)
@@ -5417,42 +5319,40 @@ END GROUP
                                0xcab2 (size before relaxing)
  .debug_str     0x0001005e      0xbf3 EALLib/MathExt.o
                                0xca9e (size before relaxing)
- .debug_str     0x00010c51     0x134a EALLib/PHSensor.o
-                               0xe64b (size before relaxing)
- .debug_str     0x00011f9b       0x2e EALLib/SensorsMem.o
+ .debug_str     0x00010c51     0x1264 EALLib/PHSensor.o
+                               0xddc3 (size before relaxing)
+ .debug_str     0x00011eb5       0x2e EALLib/SensorsMem.o
                                0xcd66 (size before relaxing)
- .debug_str     0x00011fc9      0x1c9 EALLib/TDSSensor.o
-                               0xdd7a (size before relaxing)
- .debug_str     0x00012192      0x3e7 EALLib/WaterSensorWire.o
-                               0xe115 (size before relaxing)
- .debug_str     0x00012579      0x1a6 EALLib/_globalsWaterSensors.o
-                               0xe0bc (size before relaxing)
- .debug_str     0x0001271f      0x196 Sketch.o
-                               0xdc22 (size before relaxing)
- .debug_str     0x000128b5      0x18e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_str     0x00011ee3      0x1a1 EALLib/TDSSensor.o
+                               0xdd61 (size before relaxing)
+ .debug_str     0x00012084      0x3e9 EALLib/WaterSensorWire.o
+                               0xd9cc (size before relaxing)
+ .debug_str     0x0001246d      0x1a6 EALLib/_globalsWaterSensors.o
+                               0xd93e (size before relaxing)
+ .debug_str     0x00012613      0x196 Sketch.o
+                               0xd4ca (size before relaxing)
+ .debug_str     0x000127a9      0x18e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
                                 0x1a4 (size before relaxing)
- .debug_str     0x00012a43      0x322 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00012937      0x322 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x12de (size before relaxing)
- .debug_str     0x00012d65       0x47 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_str     0x00012c59       0x47 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
                                0x10de (size before relaxing)
- .debug_str     0x00012dac       0x43 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00012ca0       0x43 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
                                 0x2b3 (size before relaxing)
- .debug_str     0x00012def       0x6d C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
-                                0x1e7 (size before relaxing)
- .debug_str     0x00012e5c      0x366 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00012ce3      0x366 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                 0xf5e (size before relaxing)
- .debug_str     0x000131c2      0x143 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x00013049      0x143 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                                 0x23d (size before relaxing)
- .debug_str     0x00013305       0x7a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_str     0x0001318c       0x7a C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
                                 0x241 (size before relaxing)
- .debug_str     0x0001337f       0x4b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x00013206       0x4b C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2a2 (size before relaxing)
- .debug_str     0x000133ca      0x3ae C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_str     0x00013251      0x3bb C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                                 0xf37 (size before relaxing)
- .debug_str     0x00013778       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_str     0x0001360c       0x1c C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
                                 0x132 (size before relaxing)
 
-.debug_loc      0x00000000     0xa1f8
+.debug_loc      0x00000000     0x9e8a
  *(.debug_loc)
  .debug_loc     0x00000000      0x596 ArduinoLibs/Wire/utility/twi.o
  .debug_loc     0x00000596      0x3d0 ArduinoLibs/Wire/Wire.o
@@ -5462,19 +5362,18 @@ END GROUP
  .debug_loc     0x00001c41      0x1ce ArduinoLibs/SimpleTimer/SimpleTimer.o
  .debug_loc     0x00001e0f      0x135 EALLib/LCDBase.o
  .debug_loc     0x00001f44      0x3d5 EALLib/MathExt.o
- .debug_loc     0x00002319      0x60f EALLib/PHSensor.o
- .debug_loc     0x00002928      0x39c EALLib/TDSSensor.o
- .debug_loc     0x00002cc4      0x252 EALLib/WaterSensorWire.o
- .debug_loc     0x00002f16      0x1ae EALLib/_globalsWaterSensors.o
- .debug_loc     0x000030c4       0xe7 Sketch.o
- .debug_loc     0x000031ab      0x497 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x00003642      0x161 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_loc     0x000037a3       0x98 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_loc     0x0000383b     0x1ef5 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00005730      0x269 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x00005999       0xfe C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_loc     0x00005a97      0x5e3 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x0000607a     0x417e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_loc     0x00002319      0x3de EALLib/PHSensor.o
+ .debug_loc     0x000026f7      0x39c EALLib/TDSSensor.o
+ .debug_loc     0x00002a93      0x231 EALLib/WaterSensorWire.o
+ .debug_loc     0x00002cc4      0x12a EALLib/_globalsWaterSensors.o
+ .debug_loc     0x00002dee       0xe7 Sketch.o
+ .debug_loc     0x00002ed5      0x497 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x0000336c      0x161 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x000034cd     0x1ef5 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x000053c2      0x269 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000562b       0xfe C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_loc     0x00005729      0x5e3 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00005d0c     0x417e C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -5494,7 +5393,7 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000     0x1070
+.debug_ranges   0x00000000      0xf98
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x60 ArduinoLibs/Wire/utility/twi.o
  .debug_ranges  0x00000060       0xe8 ArduinoLibs/Wire/Wire.o
@@ -5504,22 +5403,21 @@ END GROUP
  .debug_ranges  0x00000570       0x78 ArduinoLibs/SimpleTimer/SimpleTimer.o
  .debug_ranges  0x000005e8       0x40 EALLib/LCDBase.o
  .debug_ranges  0x00000628       0xe0 EALLib/MathExt.o
- .debug_ranges  0x00000708      0x180 EALLib/PHSensor.o
- .debug_ranges  0x00000888       0xe8 EALLib/TDSSensor.o
- .debug_ranges  0x00000970       0x98 EALLib/WaterSensorWire.o
- .debug_ranges  0x00000a08       0x70 EALLib/_globalsWaterSensors.o
- .debug_ranges  0x00000a78       0x40 Sketch.o
- .debug_ranges  0x00000ab8       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
- .debug_ranges  0x00000ad0       0x70 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_ranges  0x00000b40       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_ranges  0x00000b68       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000b90       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(new.o)
- .debug_ranges  0x00000bb8      0x128 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000ce0       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000d18       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
- .debug_ranges  0x00000d38       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_ranges  0x00000d60      0x300 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
- .debug_ranges  0x00001060       0x10 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .debug_ranges  0x00000708       0xf8 EALLib/PHSensor.o
+ .debug_ranges  0x00000800       0xe8 EALLib/TDSSensor.o
+ .debug_ranges  0x000008e8       0x90 EALLib/WaterSensorWire.o
+ .debug_ranges  0x00000978       0x50 EALLib/_globalsWaterSensors.o
+ .debug_ranges  0x000009c8       0x40 Sketch.o
+ .debug_ranges  0x00000a08       0x18 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+ .debug_ranges  0x00000a20       0x70 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x00000a90       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x00000ab8       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000ae0      0x128 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000c08       0x38 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000c40       0x20 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_ranges  0x00000c60       0x28 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000c88      0x300 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_ranges  0x00000f88       0x10 C:\AtmelArduinoProjects\EALWaterSensors\EALWaterSensors\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
 
 .debug_macro    0x00000000    0x103a9
  *(.debug_macro)

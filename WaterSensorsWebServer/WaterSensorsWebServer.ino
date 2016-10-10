@@ -90,9 +90,9 @@ String GetSensorVals(){
   String response="";
   
   String ph="";
-  String phAvg="";
+  //String phAvg="";
   String tds="";
-  String tdsAvg="";
+  //String tdsAvg="";
   String phOffset="";
   String tdsOffset="";
   String reading="";
@@ -102,9 +102,9 @@ String GetSensorVals(){
   Transmit("/GetSensorVals");
    
   ph = Request();
-  phAvg = Request();
+  //phAvg = Request();
   tds = Request();
-  tdsAvg = Request();
+  //tdsAvg = Request();
   phOffset = Request();
   tdsOffset = Request();
   reading = Request();
@@ -116,9 +116,9 @@ String GetSensorVals(){
   //response = "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\n";
   response = "\"host\":\"" + String(hostName) + "\"\r\n";
   response += "\"ph\":\"" + String(ph)+ "\"\r\n";
-  response += "\"phAvg\":\"" + String(phAvg)+ "\"\r\n";
+  //response += "\"phAvg\":\"" + String(phAvg)+ "\"\r\n";
   response += "\"tds\":\"" + String(tds)+ "\"\r\n";
-  response += "\"tdsAvg\":\"" + String(tdsAvg)+ "\"\r\n";
+  //response += "\"tdsAvg\":\"" + String(tdsAvg)+ "\"\r\n";
   response += "\"phOffset\":\"" + String(phOffset)+ "\"\r\n";
   response += "\"tdsOffset\":\"" + String(tdsOffset)+ "\"\r\n";
   response += "\"reading\":\"" + String(reading)+ "\"\r\n";
