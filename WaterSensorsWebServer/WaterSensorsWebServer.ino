@@ -29,10 +29,10 @@ uint8_t _wireRespLength = 10;
 String _newLine = "\r\n"; 
 
 String ProcessRequest(String req){
-  String response = "";
+  String response = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n";
   if (req == "/GetSensorVals")
   {
-    response = GetSensorVals();
+    response += GetSensorVals();
   }
   else if (req.indexOf("/SetTDSOffset") != -1)
   {
@@ -42,7 +42,7 @@ String ProcessRequest(String req){
     PrintDebug("Parsed TDS Offset: " + offset);
     
     //"tdsoffset=1210"
-    response = SetTDSOffset(offset);
+    response += SetTDSOffset(offset);
   }
    else if (req.indexOf("/SetPHOffset") != -1)
   {
@@ -52,7 +52,7 @@ String ProcessRequest(String req){
     PrintDebug("Parsed PH Offset: " + offset);
     
     //"phoffset=1210"
-    response = SetPHOffset(offset);
+    response += SetPHOffset(offset);
   }
   return response;
 }
@@ -66,9 +66,11 @@ String SetPHOffset(String val){
   String request = "phoffset="+val;
   Transmit(request);
   delay(20);
+
+  response = "{\r\n";
+  response += "\"msg\":\"PH Offset Updated to -> " + val + "\"\r\n";
+  response += "}\r\n";
   
-  response = GetSensorVals();
-  response = "PH Offset Updated to: " + val + "\"\r\n" + response;
   return response;
 }
 
@@ -81,8 +83,9 @@ String SetTDSOffset(String val){
   Transmit(request);
   delay(20);
   
-  response = GetSensorVals();
-  response = "TDS Offset Updated to: " + val + "\"\r\n" + response;
+  response = "{\r\n";
+  response += "\"msg\":\"TDS Offset Updated to -> " + val + "\"\r\n";
+  response += "}\r\n";
   return response;
 }
 
@@ -112,18 +115,20 @@ String GetSensorVals(){
   readingInter = Request();
   
   delay(20); //let wire clear.
-//
-  //response = "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\n";
-  response = "\"host\":\"" + String(hostName) + "\"\r\n";
-  response += "\"ph\":\"" + String(ph)+ "\"\r\n";
+
+  //response = "HTTP/1.1 200 OK\r\nContent-Type: application/json\r\n\r\n";
+  response = "{\r\n";
+  response += "\"host\":\"" + String(hostName) + "\",\r\n";
+  response += "\"ph\":" + String(ph)+ ",\r\n";
   //response += "\"phAvg\":\"" + String(phAvg)+ "\"\r\n";
-  response += "\"tds\":\"" + String(tds)+ "\"\r\n";
+  response += "\"tds\":" + String(tds)+ ",\r\n";
   //response += "\"tdsAvg\":\"" + String(tdsAvg)+ "\"\r\n";
-  response += "\"phOffset\":\"" + String(phOffset)+ "\"\r\n";
-  response += "\"tdsOffset\":\"" + String(tdsOffset)+ "\"\r\n";
-  response += "\"reading\":\"" + String(reading)+ "\"\r\n";
-  response += "\"readingDur\":\"" + String(readingDur)+ "\"\r\n";
+  response += "\"phOffset\":" + String(phOffset)+ ",\r\n";
+  response += "\"tdsOffset\":" + String(tdsOffset)+ ",\r\n";
+  response += "\"reading\":\"" + String(reading)+ "\",\r\n";
+  response += "\"readingDur\":\"" + String(readingDur)+ "\",\r\n";
   response += "\"readingInter\":\"" + String(readingInter)+ "\"\r\n";
+  response += "}\r\n";
   
   return response;
   
