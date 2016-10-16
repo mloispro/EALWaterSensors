@@ -4,7 +4,9 @@
 #include <WiFiClient.h>
 #include <Wire.h>
 //#include <SoftwareSerial.h>
-
+extern "C" {
+#include "user_interface.h"
+}
 //SoftwareSerial unoSerial(3, 1); // RX, TX 13, 15
 
 //#define OLED_RESET 0
@@ -132,6 +134,11 @@ String GetSensorVals(){
   
   return response;
   
+}
+
+void setMac() {
+  uint8_t mac[] = {0x77, 0x01, 0x02, 0x03, 0x04, 0x05};
+  wifi_set_macaddr(STATION_IF, &mac[0]);
 }
 
 void setup(void)

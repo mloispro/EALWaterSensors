@@ -20,6 +20,7 @@ SimpleTimer _asyncTimer;
 
 
 void AsyncDoWork();
+void(* resetFunc) (void) = 0;//declare reset function at address 0
 
 void setup(void) {
     // Listen on serial connection for messages from the pc
@@ -46,11 +47,21 @@ void loop(void) {
     TheTDSSensor.PrintTDSToLCD(); //todo: uncomment this
 
     //CmdMessengerExt::Loop();
+
+    if(millis() >= 21600000) { //reset every 6 hours.
+        //Serial.print(F("Reseting Arduino: "));
+        //Serial.println(millis());
+        delay(1000);
+        resetFunc(); //call reset
+    }
 }
 
 void AsyncDoWork() {
 
     wdt_reset();
+
+    //Serial.print(F("millis: "));
+    //Serial.println(millis());
 
     static unsigned long lastSensorReadTime = millis();
 
