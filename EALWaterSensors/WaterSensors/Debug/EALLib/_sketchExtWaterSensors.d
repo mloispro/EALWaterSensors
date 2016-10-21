@@ -1,5 +1,7 @@
-EALLib/MathExt.d EALLib/MathExt.o: ../../../../EALLib/MathExt.cpp \
- ../../../../EALLib/MathExt.h ..\\..\ArduinoCore\include\core/Arduino.h \
+EALLib/_sketchExtWaterSensors.d EALLib/_sketchExtWaterSensors.o: \
+ ../../../../EALLib/_sketchExtWaterSensors.cpp \
+ ../../../../EALLib/_sketchExtWaterSensors.h \
+ ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stddef.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\4.9.2\include\stdbool.h \
@@ -34,33 +36,43 @@ EALLib/MathExt.d EALLib/MathExt.o: ../../../../EALLib/MathExt.cpp \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/system_configuration.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/char_traits \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/exception \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/memory \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/new \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/exception \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cstddef \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cstdlib \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/iterator_base \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/utility.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cstdio \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/func_exception \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/iterator \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/iosfwd \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/char_traits \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/func_exception \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/algorithm \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/functional \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list \
+ ../../../../EALLib/_globalsWaterSensors.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
+ ../../../../EALLib/MathExt.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
- C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h
+ ../../../../EALLib/LCDBase.h \
+ C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h \
+ ..\\..\ArduinoCore\include\core/Print.h ../../../../EALLib/PhSensor.h \
+ ../../../../EALLib/SensorsMem.h ../../../../EALLib/TDSSensor.h \
+ ../../../../EALLib/WaterSensorWire.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire/Wire.h \
+ ..\\..\ArduinoCore\include\core/Stream.h ../../../../EALLib/PHSensor.h
 
-../../../../EALLib/MathExt.h:
+../../../../EALLib/_sketchExtWaterSensors.h:
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -132,21 +144,23 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h:
 
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/system_configuration.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/char_traits:
-
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/exception:
-
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/memory:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/new:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/exception:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cstddef:
 
@@ -158,13 +172,13 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/utility.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cstdio:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/func_exception:
-
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector:
-
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/iterator:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/iosfwd:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/char_traits:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/func_exception:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/algorithm:
 
@@ -174,10 +188,34 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list:
 
+../../../../EALLib/_globalsWaterSensors.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
+
+../../../../EALLib/MathExt.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
+
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
 
-C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+../../../../EALLib/LCDBase.h:
 
-C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
+C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h:
+
+..\\..\ArduinoCore\include\core/Print.h:
+
+../../../../EALLib/PhSensor.h:
+
+../../../../EALLib/SensorsMem.h:
+
+../../../../EALLib/TDSSensor.h:
+
+../../../../EALLib/WaterSensorWire.h:
+
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire/Wire.h:
+
+..\\..\ArduinoCore\include\core/Stream.h:
+
+../../../../EALLib/PHSensor.h:

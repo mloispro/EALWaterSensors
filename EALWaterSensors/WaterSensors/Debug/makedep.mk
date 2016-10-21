@@ -36,5 +36,7 @@
 
 ..\..\..\EALLib\_globalsWaterSensors.cpp
 
+..\..\..\EALLib\_sketchExtWaterSensors.cpp
+
 Sketch.cpp
 

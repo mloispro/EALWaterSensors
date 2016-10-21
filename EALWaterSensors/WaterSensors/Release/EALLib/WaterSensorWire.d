@@ -59,17 +59,18 @@ EALLib/WaterSensorWire.d EALLib/WaterSensorWire.o: \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list \
  ../../../../EALLib/_globalsWaterSensors.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h \
  C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
+ ../../../../EALLib/MathExt.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
  ../../../../EALLib/LCDBase.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h \
- ..\\..\ArduinoCore\include\core/Print.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
- ../../../../EALLib/PhSensor.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
- ../../../../EALLib/SensorsMem.h ../../../../EALLib/MathExt.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
- ../../../../EALLib/TDSSensor.h ../../../../EALLib/PHSensor.h
+ ..\\..\ArduinoCore\include\core/Print.h ../../../../EALLib/PhSensor.h \
+ ../../../../EALLib/SensorsMem.h ../../../../EALLib/TDSSensor.h \
+ ../../../../EALLib/PHSensor.h
 
 ../../../../EALLib/WaterSensorWire.h:
 
@@ -189,9 +190,19 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list:
 
 ../../../../EALLib/_globalsWaterSensors.h:
 
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
+
 C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+
+../../../../EALLib/MathExt.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
 
 ../../../../EALLib/LCDBase.h:
 
@@ -199,17 +210,9 @@ C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h:
 
 ..\\..\ArduinoCore\include\core/Print.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
-
 ../../../../EALLib/PhSensor.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
-
 ../../../../EALLib/SensorsMem.h:
-
-../../../../EALLib/MathExt.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
 
 ../../../../EALLib/TDSSensor.h:
 

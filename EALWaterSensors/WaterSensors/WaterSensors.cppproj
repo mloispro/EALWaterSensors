@@ -161,7 +161,7 @@
       </AvrGccCpp>
     </ToolchainSettings>
     <PostBuildEvent>if $(Configuration) == Release (
-  call "$(SolutionDir)Deploy\ArduinoDeploy.cmd" $(OutputDirectory)/$(OutputFileName) $(avrdevice) COM15
+  call "$(SolutionDir)Deploy\ArduinoDeploy.cmd" $(OutputDirectory)/$(OutputFileName) $(avrdevice) COM5
 )</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -449,6 +449,14 @@
     <Compile Include="..\..\..\EALLib\_globalsWaterSensors.h">
       <SubType>compile</SubType>
       <Link>EALLib\_globalsWaterSensors.h</Link>
+    </Compile>
+    <Compile Include="..\..\..\EALLib\_sketchExtWaterSensors.cpp">
+      <SubType>compile</SubType>
+      <Link>EALLib\_sketchExtWaterSensors.cpp</Link>
+    </Compile>
+    <Compile Include="..\..\..\EALLib\_sketchExtWaterSensors.h">
+      <SubType>compile</SubType>
+      <Link>EALLib\_sketchExtWaterSensors.h</Link>
     </Compile>
     <Compile Include="ArduinoLibs\RF24\RF24_config.h">
       <SubType>compile</SubType>

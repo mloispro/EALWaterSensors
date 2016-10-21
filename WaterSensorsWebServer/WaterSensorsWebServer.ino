@@ -4,15 +4,14 @@
 #include <WiFiClient.h>
 #include <Wire.h>
 //#include <SoftwareSerial.h>
+#include <EEPROM.h>
+
+
 extern "C" {
 #include "user_interface.h"
 }
 //SoftwareSerial unoSerial(3, 1); // RX, TX 13, 15
 
-//#define OLED_RESET 0
-//#define SDA 4 // I2C Bus SDA (data)
-//#define SCL 5 // I2C Bus SCL (clock)
-//#define SLAVE 8
 
 int _sdaPin = 4;
 int _sclPin = 5;
@@ -137,19 +136,75 @@ String GetSensorVals(){
 }
 
 void setMac() {
-  uint8_t mac[] = {0x77, 0x01, 0x02, 0x03, 0x04, 0x05};
-  wifi_set_macaddr(STATION_IF, &mac[0]);
+
+ // Set as SoftAP and client
+  WiFi.mode(WIFI_AP_STA);       
+  byte *mac = (byte*)malloc(6);
+  WiFi.macAddress(mac);
+
+  PrintDebug("reading mac: ");
+  String strmac;
+  for (int i = 0; i < 6; ++i)
+  {
+    strmac += mac[i];
+  }
+  Serial.println(strmac);
+  
+  PrintDebug("reading eeprom mac: ");
+  String eemac;
+  for (int i = 0; i < 6; ++i)
+  {
+    eemac += EEPROM.read(i);
+  }
+  Serial.println(eemac);
+  if(eemac=="000000" || eemac=="255255255255255255"){
+    
+    PrintDebug("eemac empty.. ");
+    PrintDebug("writing mac to eeprom: ");
+    for (int i = 0; i < 6; ++i)
+    {
+      EEPROM.write(i, mac[i]);
+      PrintDebug("Wrote: ");
+      Serial.println(mac[i]); 
+    }
+    EEPROM.commit();
+    delay(100);
+  }
+
+  PrintDebug("setting mac from eeprom..");
+  
+  for (int i = 0; i < 6; ++i)
+  {
+    mac[i] = EEPROM.read(i);
+  }
+  wifi_set_macaddr(SOFTAP_IF, mac);
+  free(mac);
+  delay(100);
+  PrintDebug("finished setting mac from eeprom.");
+
+//// // Change MAC 
+//// byte *mac = (byte*)malloc(6);
+//// WiFi.macAddress(mac);
+//// mac[0] = 0x16;
+//// mac[1] = 0x19;
+//// mac[2] = 0xCA;
+//// wifi_set_macaddr(STATION_IF, mac);
+//// mac[2] = 0xCB;
+////  wifi_set_macaddr(SOFTAP_IF, mac);
+////  free(mac);
+//  
+//  //uint8_t mac[] = {0x77, 0x01, 0x02, 0x03, 0x04, 0x05};
+//  //wifi_set_macaddr(STATION_IF, &mac[0]);
 }
 
 void setup(void)
 {  
-  
   //unoSerial.begin(9600);
   Serial.begin(57600);
+  EEPROM.begin(512);
+  delay(10);
   while(!Serial);
-
-
-
+  
 //  IPAddress ip(192, 168, 10, 102); 
 //  IPAddress gateway(192, 168, 10, 1); 
 //  IPAddress subnet(255, 255, 255, 0); 
@@ -159,8 +214,10 @@ void setup(void)
 
     // Connect to WiFi network
   WiFi.hostname(hostName);
+  setMac();
   WiFi.begin(ssid, password);
-  WiFi.hostname(hostName);
+  //WiFi.hostname(hostName);
+  
   
   PrintDebug("");  
   

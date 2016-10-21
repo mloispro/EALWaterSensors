@@ -35,7 +35,6 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\standard/pins_arduino.h \
  C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h \
- c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/basic_definitions \
@@ -57,21 +56,21 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string \
- ../../../../EALLib/_globalsWaterSensors.h \
+ ../../../../EALLib/_sketchExtWaterSensors.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h \
  C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
+ ../../../../EALLib/_globalsWaterSensors.h \
+ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h \
+ ../../../../EALLib/MathExt.h \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
  ../../../../EALLib/LCDBase.h \
  C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h \
- ..\\..\ArduinoCore\include\core/Print.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
- ../../../../EALLib/PhSensor.h \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
- ../../../../EALLib/SensorsMem.h ../../../../EALLib/MathExt.h \
- ../../../../EALLib/TDSSensor.h ../../../../EALLib/MathExt.h \
+ ..\\..\ArduinoCore\include\core/Print.h ../../../../EALLib/PhSensor.h \
+ ../../../../EALLib/SensorsMem.h ../../../../EALLib/TDSSensor.h \
  ../../../../EALLib/WaterSensorWire.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire/Wire.h \
- ..\\..\ArduinoCore\include\core/Stream.h \
- ../../../../EALLib/_globalsWaterSensors.h ../../../../EALLib/PHSensor.h
+ ..\\..\ArduinoCore\include\core/Stream.h ../../../../EALLib/PHSensor.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -145,8 +144,6 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 C:\Users\lenovo\Documents\Arduino\libraries\SimpleTimer/SimpleTimer.h:
 
-c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
-
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/StandardCplusplus.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/vector:
@@ -189,11 +186,21 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/string:
 
-../../../../EALLib/_globalsWaterSensors.h:
+../../../../EALLib/_sketchExtWaterSensors.h:
 
 C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
 
 C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+
+../../../../EALLib/_globalsWaterSensors.h:
+
+c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\wdt.h:
+
+../../../../EALLib/MathExt.h:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
+
+C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
 
 ../../../../EALLib/LCDBase.h:
 
@@ -201,26 +208,16 @@ C:\Program\ Files\ (x86)\Arduino\libraries\LiquidCrystal\src/LiquidCrystal.h:
 
 ..\\..\ArduinoCore\include\core/Print.h:
 
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
-
 ../../../../EALLib/PhSensor.h:
-
-C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
 
 ../../../../EALLib/SensorsMem.h:
 
-../../../../EALLib/MathExt.h:
-
 ../../../../EALLib/TDSSensor.h:
-
-../../../../EALLib/MathExt.h:
 
 ../../../../EALLib/WaterSensorWire.h:
 
 C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\Wire/Wire.h:
 
 ..\\..\ArduinoCore\include\core/Stream.h:
-
-../../../../EALLib/_globalsWaterSensors.h:
 
 ../../../../EALLib/PHSensor.h:

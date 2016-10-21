@@ -56,7 +56,9 @@ EALLib/MathExt.d EALLib/MathExt.o: ../../../../EALLib/MathExt.cpp \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/type_traits \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list \
  C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath \
- C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric
+ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric \
+ C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h
 
 ../../../../EALLib/MathExt.h:
 
@@ -175,3 +177,7 @@ C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/initializer_list:
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/cmath:
 
 C:\Users\lenovo\Documents\Arduino\libraries\StandardCplusplus/numeric:
+
+C:\Users\lenovo\Documents\Arduino\libraries\EEWrap/EEWrap.h:
+
+C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\libraries\EEPROM/EEPROM.h:
