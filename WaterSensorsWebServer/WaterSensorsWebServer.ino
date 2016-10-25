@@ -12,13 +12,15 @@ extern "C" {
 }
 //SoftwareSerial unoSerial(3, 1); // RX, TX 13, 15
 
-
-int _sdaPin = 4;
-int _sclPin = 5;
+int _ip[4]{192, 168, 10, 160};
+const char *hostName = "WaterSensor-1";
 
 const char *ssid = "One Love";//"One Love";//"SMU_Aruba_WiFi";
 const char *password = "teddy1207";//teddy1207";
-const char *hostName = "WaterSensor-1";
+
+
+int _sdaPin = 4;
+int _sclPin = 5;
 
 // TCP server at port 80 will respond to HTTP requests
 WiFiServer server(80);
@@ -205,16 +207,16 @@ void setup(void)
   delay(10);
   while(!Serial);
   
-//  IPAddress ip(192, 168, 10, 102); 
-//  IPAddress gateway(192, 168, 10, 1); 
-//  IPAddress subnet(255, 255, 255, 0); 
-//  Serial.print(F("Setting static ip to : "));
-//  Serial.println(ip);
-//  WiFi.config(ip, gateway, subnet);
+  IPAddress ip(_ip[0], _ip[1], _ip[2], _ip[3]); 
+  IPAddress gateway(192, 168, 10, 1); 
+  IPAddress subnet(255, 255, 255, 0); 
+  Serial.print(F("Setting static ip to : "));
+  Serial.println(ip);
+  WiFi.config(ip, gateway, subnet);
 
     // Connect to WiFi network
   WiFi.hostname(hostName);
-  setMac();
+  //setMac();
   WiFi.begin(ssid, password);
   //WiFi.hostname(hostName);
   
@@ -238,7 +240,7 @@ void setup(void)
   // - second argument is the IP address to advertise
   //   we send our IP address on the WiFi network
   //if (!MDNS.begin(hostName,ip)) {
-   if (!MDNS.begin(hostName)) {
+   if (!MDNS.begin(hostName,ip)) {
     PrintDebug("Error setting up MDNS responder!");
     while(1) { 
       delay(1000);
