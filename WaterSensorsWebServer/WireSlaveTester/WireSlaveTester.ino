@@ -11,7 +11,7 @@ String _cmdData = "";
 
 void setup() {
   // Open serial communications and wait for port to open:
-  Serial.begin(9600);
+  Serial.begin(57600);
   while (!Serial);
   
   Wire.begin(_slave); 
