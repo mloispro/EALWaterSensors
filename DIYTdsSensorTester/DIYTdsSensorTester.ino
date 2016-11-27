@@ -7,7 +7,7 @@
 
 //setup vars
 const int _tdsPin = 3;//1;//#3
-const int _temperaturePin = A3;
+const int _tempSensorPin = A3;
 const int _tdsPowerPin = 11; // the pin that powers the 555 subcircuit
 
 //local vars
@@ -162,7 +162,7 @@ void getTempurature(){
       
     // take N samples in a row, with a slight delay
     for (int i=0; i< NUMSAMPLES; i++) {
-     int tempReading = analogRead(_temperaturePin);
+     int tempReading = analogRead(_tempSensorPin);
 //     Serial.print("tempReading: "); 
 //      Serial.println(tempReading);
      _samples[i] = tempReading;
